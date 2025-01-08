@@ -4,8 +4,8 @@ TokeiDigital [to̞ke̞ːdigital] is a line of clocks for geeks, nerds, and maker
 
 ### Models
 
-|Model|Description|hh:mm:ss|date|DST|DSTAuto|LEDs|
-|-----|-----------|--------|----|---|-------|----|
-|TD-BUH01-*|Reproduction of the iconic Berlin Uhr.|X| |X|X|36 RGB|
-|TD-DCF01-*|60 LEDs display time encoded as DCF77 bitstream.|X|X|X|X|60 RGB|
+|Model|Description|hh:mm:ss|date|DST|LEDs|
+|-----|-----------|--------|----|---|----|
+|TD-BUH01|Reproduction of the iconic Berlin Uhr.|X| |X|X|36 RGB|
+|TD-DCF01|60 LEDs display time encoded as DCF77 bitstream.|X|X|X|60 RGB|
 
