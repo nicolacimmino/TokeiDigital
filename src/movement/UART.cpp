@@ -65,10 +65,14 @@ namespace UART
 
         while (bit_is_clear(UCSR0A, UDRE0))
             ;
+            
+        if(*(rxBufferWp - 1) == KEY_BACKSPACE) {
+            UDR0 = KEY_DEL;
+        }
 
         UDR0 = *(rxBufferWp - 1);
 
-        if (*(rxBufferWp - 1) == KEY_BACKSPACE && (rxBufferWp - 2) >= rxBuffer)
+        if ((*(rxBufferWp - 1) == KEY_BACKSPACE || *(rxBufferWp - 1) == KEY_DEL) && (rxBufferWp - 2) >= rxBuffer)
         {
             rxBufferWp -= 2;
         }
@@ -83,8 +87,6 @@ namespace UART
 
         UDR0 = c;
     }
-
-#define UART_TMP_BUF_SIZE 8
 
     void printSiString(uint8_t index)
     {

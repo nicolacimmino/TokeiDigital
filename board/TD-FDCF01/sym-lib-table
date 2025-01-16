@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ClockIt")(type "KiCad")(uri "C:/Users/nicola/git/ClockIt/board/ClockIt.kicad_sym")(options "")(descr ""))
+  (lib (name "TokeiDigital")(type "KiCad")(uri "C:/Users/nicola/git/TokeiDigital/board/TokeiDigital.kicad_sym")(options "")(descr ""))
+)

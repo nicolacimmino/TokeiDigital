@@ -35,8 +35,10 @@
 #include <string.h>
 #include <ctype.h>
 
+#define UART_TMP_BUF_SIZE 8
 #define UART_RX_BUF_SIZE 32
-#define KEY_BACKSPACE 0x7F
+#define KEY_BACKSPACE 0x08
+#define KEY_DEL 0x7F
 
 #if F_CPU == 8000000
 #define BAUDL 102
