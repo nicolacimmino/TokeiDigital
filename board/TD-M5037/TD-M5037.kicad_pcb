@@ -1369,7 +1369,7 @@
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp 4597a169-3649-46ed-986c-13beb7f9b8ea)
     )
-    (fp_text value "PowerPad" (at 0 -0.031 unlocked) (layer "B.Fab")
+    (fp_text value "PowerPad" (at 0 -0.031 unlocked) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f14501a8-5f8d-437d-903d-3c862cbf048c)
     )
@@ -1390,7 +1390,7 @@
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp 0cb83ff6-4eaa-4584-99b9-ba78d7728426)
     )
-    (fp_text value "PowerPad" (at 0 -0.031 unlocked) (layer "B.Fab")
+    (fp_text value "PowerPad" (at 0 -0.031 unlocked) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 0872aa40-be24-4529-82b4-92638d1a9ad5)
     )
@@ -1674,8 +1674,8 @@
   (gr_text "TokeiDigital\nMovement 5037 REV.A" (at 81.915 89.535) (layer "B.Fab") (tstamp 1d97ec0c-b668-4ab1-9224-41315e7fe39c)
     (effects (font (size 1 1) (thickness 0.15)) (justify bottom mirror))
   )
-  (gr_text "Not Needed" (at 69.85 76.835 90) (layer "B.Fab") (tstamp 6aff0b5c-8c79-473d-a1ab-e14fb944adfe)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
+  (gr_text "Not Needed\nUnless you want UART" (at 69.85 76.835 90) (layer "B.Fab") (tstamp 6aff0b5c-8c79-473d-a1ab-e14fb944adfe)
+    (effects (font (size 1 1) (thickness 0.15)) (justify bottom mirror))
   )
   (gr_text "TokeiDigital\nMovement 5037 REV.A" (at 104.775 92.71) (layer "F.Fab") (tstamp 1c749614-3e9a-46c0-89c8-ad5b48d514fe)
     (effects (font (size 1 1) (thickness 0.15)) (justify bottom))
