@@ -33,10 +33,10 @@ namespace DS1307
      */
     DateTime getDateTime()
     {
-        UTWI::readRegisters(DS1307_ADDR, DS1307_TIME_REG_BASE, _twiBuf, 7);
-
         DateTime dateTime;
-
+    
+        UTWI::readRegisters(DS1307_ADDR, DS1307_TIME_REG_BASE, _twiBuf, 7);
+     
         dateTime.year = (10 * (_twiBuf[6] >> 4)) + (_twiBuf[6] & 0b1111);
         dateTime.month = (10 * (_twiBuf[5] >> 4)) + (_twiBuf[5] & 0b1111);
         dateTime.dayOfMonth = (10 * (_twiBuf[4] >> 4)) + (_twiBuf[4] & 0b1111);

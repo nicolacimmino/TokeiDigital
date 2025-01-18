@@ -2,7 +2,7 @@
 #define __SerialInterface_H__
 
 #include <stdint.h>
-#include"Registers.h"
+#include "Registers.h"
 #include "UART.h"
 #include "DS1307.h"
 #include "faceDrivers/Face.h"
@@ -18,6 +18,8 @@
 namespace SerialInterface
 {
     void init();
+    void printStartup();
+    void printStartupDone();
     void sendSerialInterface();
     void processSerialInterface();
     void dumpRegisters(int start, int end);

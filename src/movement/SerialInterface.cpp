@@ -14,6 +14,16 @@ namespace SerialInterface
         UART::init();
     }
 
+    void printStartup()
+    {
+        UART::printSiString(S_SI_STARTUP);
+    }
+
+    void printStartupDone()
+    {
+        UART::printSiString(S_SI_STARTUP_DONE);
+    }
+
     void processSerialInterface()
     {
         if (UART::isCharAvailable())

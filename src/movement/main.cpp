@@ -20,6 +20,7 @@
 
 #include <stdbool.h>
 #include <avr/io.h>
+#include <avr/wdt.h>
 #include "AMOS.h"
 #include "faceDrivers/Face.h"
 #include "DS1307.h"
@@ -36,11 +37,16 @@ void refreshFace()
 
 int main(void)
 {
+    wdt_enable(WDTO_8S);
+
     AMOS::init();
+    SerialInterface::init();
+
+    SerialInterface::printStartup();
+
     UTWI::init();
     Face::init();
     TimeSetter::init();
-    SerialInterface::init();
 
     AMOS::queueEveryMs(200, refreshFace);
 
@@ -48,15 +54,13 @@ int main(void)
     Button buttonB = Button(BTNB_PIN);
     Button buttonC = Button(BTNC_PIN);
 
-    // DateTime dt;
-    // dt.h = 19;
-    // dt.m = 26;
-    // dt.s = 0;
-    // dt.dayOfWeek=5;
-    // dt.dayOfMonth=20;
-    // dt.month=12;
-    // dt.year=24;
-    // DS1307::setDateTime(dt);
+    // Just hit the DS1307 once before we confirm the
+    //  boot was successful, if there's a communiction
+    //  issue the WD will reset us and we get a change
+    //  to re-initialize everything.
+    DS1307::getDateTime();
+
+    SerialInterface::printStartupDone();
 
     while (1)
     {
@@ -64,6 +68,8 @@ int main(void)
 
         buttonA.loop();
         buttonB.loop();
-        buttonC.loop();       
+        buttonC.loop();
+
+        wdt_reset();
     }
 }
