@@ -2,12 +2,12 @@
 
 namespace Registers
 {
-    Color::RGB getPersistentAsColor(uint8_t colorIndex)
+    Color::RGB getPersistentAsColor(uint8_t address)
     {
         return {
-            .r = getPersistent(colorIndex * 3),
-            .g = getPersistent((colorIndex * 3) + 1),
-            .b = getPersistent((colorIndex * 3) + 2)};
+            .r = getPersistent(address),
+            .g = getPersistent(address + 1),
+            .b = getPersistent(address + 2)};
     }
 
     uint8_t getPersistent(uint8_t address)

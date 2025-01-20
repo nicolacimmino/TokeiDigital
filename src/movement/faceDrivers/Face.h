@@ -29,6 +29,8 @@
 #include "BerlinUhr.h"
 #include "DCF77.h"
 
+#define FACE_REG_BASE 0x40
+
 #define DISPLAY_NORMAL 1
 #define DISPLAY_TEST 2
 #define DISPLAY_SET_HOUR 0x80
