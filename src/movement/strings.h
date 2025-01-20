@@ -18,19 +18,13 @@ const char s_si_startup_done[] PROGMEM =
 const char s_si_banner[] PROGMEM =
     "TOKEI DIGITAL MOVEMENT 5037\r\n"
     "\r\n"
-    "TSET HH:MM DOW DOM-MONTH-YEAR\r\n"
-    "SET CURRENT TIME AND DATE.\r\n"
-    "\r\n"
-    "WREG ADDR VAL.VAL...\r\n"
-    "WRITE REGISTER(S).\r\n"
-    "\r\n"
-    "DREG\r\n"
-    "DUMP ALL REGISTERS.\r\n"
-    "\r\n"
-    "EXIT\r\n"
-    "EXIT INTERACTIVE MODE.\r\n"
-    "OK\r\n";
-
+    "H                HELP\r\n"
+    "N                PRINT NOW\r\n"
+    "R                DUMP REGISTERS\r\n"
+    "S [START]        SET REGISTERS\r\n"
+    "T [H:M WD D-M-Y] PRINT DATE/TIME\r\n"    
+    "X                EXIT\r\n";
+    
 PGM_P const si_strings[] PROGMEM =
     {
         s_si_startup,

@@ -5,11 +5,86 @@ namespace SerialInterface
     namespace
     {
         bool outputEnabled = true;
+
+        void printSingleRegister(int address, bool printNewLine = false)
+        {
+            UART::printf("%04X  %02X .", address, Registers::getPersistent(address));
+
+            if (printNewLine)
+            {
+                UART::print("\r\n");
+            }
+        }
+
+        void printTime()
+        {
+            DateTime t = DS1307::getDateTime();
+
+            UART::printf("%02d:%02d ", t.h, t.m);
+            UART::printf("%d ", t.dayOfWeek);
+            UART::printf("%02d-%02d-%02d\r\n", t.dayOfMonth, t.month, t.year);
+        }
+
+        void setTime()
+        {
+            DateTime t;
+
+            // eg T 15:42 1 6-1-24
+            t.h = atoi(strtok(NULL, ":"));
+            t.m = atoi(strtok(NULL, " "));
+            t.s = 0;
+            t.dayOfWeek = atoi(strtok(NULL, " "));
+            t.dayOfMonth = atoi(strtok(NULL, "-"));
+            t.month = atoi(strtok(NULL, "-"));
+            t.year = atoi(strtok(NULL, "\r\n"));
+
+            DS1307::setDateTime(t);
+        }
+
+        void setRegisters(uint8_t address)
+        {
+            char *token;
+
+            printSingleRegister(address);
+
+            UART::clearLine();
+
+            while (true)
+            {
+                wdt_reset();
+                AMOS::loop();
+
+                while (UART::isLineAvailable())
+                {
+                    token = strtok(UART::getLine(), " \r\n");
+
+                    if (strncmp(token, "X", 1) == 0)
+                    {
+                        UART::print("\r\n");
+                        UART::clearLine();
+                        return;
+                    }
+
+                    if (strncmp(token, "", 1) != 0)
+                    {
+                        Registers::setPersistent(address, strtoul(token, NULL, 16));
+                    }
+
+                    printSingleRegister(address, true);
+
+                    address = (address + 1) % REGISTERS_PERSISTENT_SIZE;
+
+                    printSingleRegister(address);
+
+                    UART::clearLine();
+                }
+            }
+        }
     }
 
     void init()
     {
-        AMOS::queueEveryMs(SI_INTERVAL_MS, sendSerialInterface);
+        AMOS::queueEveryMs(SI_INTERVAL_MS, SerialInterface::outputClockData);
         AMOS::queueEveryMs(100, processSerialInterface);
         UART::init();
     }
@@ -28,60 +103,14 @@ namespace SerialInterface
     {
         if (UART::isCharAvailable())
         {
-            outputEnabled = false;
+            SerialInterface::outputEnabled = false;
         }
 
         if (UART::isLineAvailable())
         {
-            UART::print("\r\n");
-
-            char *token = strtok(UART::getLine(), " \r\n");
-
-            if (strcmp(token, "") == 0)
+            if (SerialInterface::serveClient() == 0)
             {
-                UART::printSiString(S_SI_BANNER);
-            }
-            else if (strcmp(token, "TSET") == 0)
-            {
-                DateTime t;
-
-                // eg TSET 15:42 1 6-1-24
-                t.h = atoi(strtok(NULL, ":"));
-                t.m = atoi(strtok(NULL, " "));
-                t.s = 0;
-                t.dayOfWeek = atoi(strtok(NULL, " "));
-                t.dayOfMonth = atoi(strtok(NULL, "-"));
-                t.month = atoi(strtok(NULL, "-"));
-                t.year = atoi(strtok(NULL, "\r\n"));
-
-                DS1307::setDateTime(t);
-
                 UART::print("OK\r\n");
-            }
-            else if (strcmp(token, "WREG") == 0)
-            {
-                uint8_t address = strtoul(strtok(NULL, " "), NULL, 16);
-
-                char *nextToken;
-                do
-                {
-                    nextToken = strtok(NULL, ".");
-                    if (nextToken != NULL)
-                    {
-                        Registers::setPersistent(address++, strtoul(nextToken, NULL, 16));
-                    }
-                } while (nextToken != NULL);
-
-                UART::print("OK\r\n");
-            }
-            else if (strcmp(token, "DREG") == 0)
-            {
-                dumpRegisters(0, REGISTERS_PERSISTENT_SIZE - 1);
-                UART::print("OK\r\n");
-            }
-            else if (strcmp(token, "EXIT") == 0)
-            {
-                outputEnabled = true;
             }
             else
             {
@@ -91,9 +120,9 @@ namespace SerialInterface
         }
     }
 
-    void sendSerialInterface()
+    void outputClockData()
     {
-        if (outputEnabled)
+        if (SerialInterface::outputEnabled)
         {
             DateTime t = DS1307::getDateTime();
 
@@ -107,6 +136,59 @@ namespace SerialInterface
             }
             UART::print("\r\n");
         }
+    }
+
+    uint8_t serveClient()
+    {
+        int p0 = 0;
+        int p1 = REGISTERS_PERSISTENT_SIZE - 1;
+        UART::print("\r\n");
+
+        char *token = strtok(UART::getLine(), " \r\n");
+
+        char cmd = *token;
+
+        if (cmd != 'T')
+        {
+            token = strtok(NULL, " ");
+            if (token != NULL)
+            {
+                p0 = strtoul(token, NULL, 16);
+            }
+
+            token = strtok(NULL, " ");
+            if (token != NULL)
+            {
+                p1 = strtoul(token, NULL, 16);
+            }
+        }
+
+        switch (cmd)
+        {
+        case 'H':
+        case NULL:
+            UART::printSiString(S_SI_BANNER);
+            break;
+        case 'N':
+            printTime();
+            break;
+        case 'T':
+            setTime();
+            break;
+        case 'S':
+            setRegisters(p0);
+            break;
+        case 'R':
+            dumpRegisters(p0, p1);
+            break;
+        case 'X':
+            outputEnabled = true;
+            return 0;
+        default:
+            return 1;
+        }
+
+        return 0;
     }
 
     void dumpRegisters(int start, int end)
