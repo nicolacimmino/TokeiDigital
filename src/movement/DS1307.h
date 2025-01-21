@@ -13,12 +13,6 @@
 #define DS1307_TIME_REG_BASE 0x00
 #define DS1307_RAM_BASE 0x08
 
-// Configuation registers
-#define DST_REGISTER 0x00
-#define DST_AUTO 0
-#define DST_OFF 1
-#define DST_ON 2
-
 struct DateTime
 {
     uint8_t h;

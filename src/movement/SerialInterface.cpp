@@ -8,7 +8,7 @@ namespace SerialInterface
 
         void printSingleRegister(int address, bool printNewLine = false)
         {
-            UART::printf("%04X  %02X .", address, Registers::getPersistent(address));
+            UART::printf("%04X  %02X .", address, Registers::get(address));
 
             if (printNewLine)
             {
@@ -36,7 +36,7 @@ namespace SerialInterface
             t.dayOfWeek = atoi(strtok(NULL, " "));
             t.dayOfMonth = atoi(strtok(NULL, "-"));
             t.month = atoi(strtok(NULL, "-"));
-            t.year = atoi(strtok(NULL, "\r\n"));
+            t.year = (atoi(strtok(NULL, "\r\n")) % 100);
 
             DS1307::setDateTime(t);
         }
@@ -67,12 +67,12 @@ namespace SerialInterface
 
                     if (strncmp(token, "", 1) != 0)
                     {
-                        Registers::setPersistent(address, strtoul(token, NULL, 16));
+                        Registers::set(address, strtoul(token, NULL, 16));
                     }
 
                     printSingleRegister(address, true);
 
-                    address = (address + 1) % REGISTERS_PERSISTENT_SIZE;
+                    address = (address + 1) % REGISTERS_SIZE;
 
                     printSingleRegister(address);
 
@@ -120,19 +120,46 @@ namespace SerialInterface
         }
     }
 
+    void dumpRegisters(int start, int end)
+    {
+        for (int address = start - (start % SI_DUMP_PER_LINE); address < end + 1; address++)
+        {
+            if (address % SI_DUMP_PER_LINE == 0)
+            {
+                UART::printf("%04X  ", address);
+            }
+
+            if (address < start)
+            {
+                UART::printf("   ");
+                continue;
+            }
+
+            UART::printf("%02X%s",
+                         Registers::get(address),
+                         ((address % SI_DUMP_PER_LINE) != (SI_DUMP_PER_LINE - 1)) ? "." : "\r\n");
+        }
+
+        if (end % SI_DUMP_PER_LINE != (SI_DUMP_PER_LINE - 1))
+        {
+            UART::print("\r\n");
+        }
+    }
+
     void outputClockData()
     {
-        if (SerialInterface::outputEnabled)
-        {
-            DateTime t = DS1307::getDateTime();
+        DateTime t = DS1307::getDateTime();
 
-            UART::printf("INFO0.%s.%s\r\n", FW_VER, FACE_ID);
-            UART::printf("LDATE.20%02d-%02d-%02d\r\n", t.year, t.month, t.dayOfMonth);
-            UART::printf("LTIME.%02d:%02d:%02d\r\n", t.h, t.m, t.s);
-            UART::printf("DST.%s", t.dst ? "ON" : "OFF");
-            if (Registers::getPersistent(DST_REGISTER) == DST_AUTO)
+        if (SerialInterface::outputEnabled && Registers::get(SERIAL_ENABLE_REGISTER) == 1)
+        {
+            UART::printf("$V1!INFO0,%s,%s\r\n", FW_VER, FACE_ID);
+            UART::printf("$V1!DATE,%02d-%02d-20%02d\r\n", t.dayOfMonth, t.month, t.year);
+            UART::printf("$V1!TIME,%02d:%02d:%02d\r\n", t.h, t.m, t.s);
+            UART::printf("$V1!DOW,%d\r\n", t.dayOfWeek);
+            UART::printf("$V1!DST,%s", t.dst ? "ON" : "OFF");
+            if (Registers::get(DST_REGISTER) == DST_AUTO)
             {
-                UART::print(".AUTO");
+                UART::print(",AUTO");
             }
             UART::print("\r\n");
         }
@@ -141,7 +168,7 @@ namespace SerialInterface
     uint8_t serveClient()
     {
         int p0 = 0;
-        int p1 = REGISTERS_PERSISTENT_SIZE - 1;
+        int p1 = REGISTERS_SIZE - 1;
         UART::print("\r\n");
 
         char *token = strtok(UART::getLine(), " \r\n");
@@ -189,31 +216,5 @@ namespace SerialInterface
         }
 
         return 0;
-    }
-
-    void dumpRegisters(int start, int end)
-    {
-        for (int address = start - (start % SI_DUMP_PER_LINE); address < end + 1; address++)
-        {
-            if (address % SI_DUMP_PER_LINE == 0)
-            {
-                UART::printf("%04X  ", address);
-            }
-
-            if (address < start)
-            {
-                UART::printf("   ");
-                continue;
-            }
-
-            UART::printf("%02X%s",
-                         Registers::getPersistent(address),
-                         ((address % SI_DUMP_PER_LINE) != (SI_DUMP_PER_LINE - 1)) ? "." : "\r\n");
-        }
-
-        if (end % SI_DUMP_PER_LINE != (SI_DUMP_PER_LINE - 1))
-        {
-            UART::print("\r\n");
-        }
     }
 }

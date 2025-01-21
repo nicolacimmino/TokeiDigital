@@ -20,7 +20,7 @@ namespace Face
                 Color::RGB colorIfOn = (position % color1Every == color1Every - 1) ? color1 : color;
                 WS2812::setColor(
                     ledOffset + ix,
-                    (positionsOn > position) ? colorIfOn : Registers::getPersistentAsColor(BERLIN_UHR_COLOR_OFF));
+                    (positionsOn > position) ? colorIfOn : Registers::getAsColor(BERLIN_UHR_COLOR_OFF));
             }
         }
 
@@ -36,7 +36,7 @@ namespace Face
                       positions,
                       color,
                       0,
-                      Registers::getPersistentAsColor(BERLIN_UHR_COLOR_OFF));
+                      Registers::getAsColor(BERLIN_UHR_COLOR_OFF));
         }
     }
 
@@ -61,18 +61,18 @@ namespace Face
 
         if ((t.s & 0x80) == 0)
         {
-            WS2812::setColor(0, (t.s % 2) ? Registers::getPersistentAsColor(BERLIN_UHR_COLOR_YELLOW) : Registers::getPersistentAsColor(BERLIN_UHR_COLOR_OFF));
+            WS2812::setColor(0, (t.s % 2) ? Registers::getAsColor(BERLIN_UHR_COLOR_YELLOW) : Registers::getAsColor(BERLIN_UHR_COLOR_OFF));
         }
         else
         {
-            WS2812::setColor(0, Registers::getPersistentAsColor(BERLIN_UHR_COLOR_RED));
+            WS2812::setColor(0, Registers::getAsColor(BERLIN_UHR_COLOR_RED));
         }
 
-        showDigit(floor(t.h / 5), 1, 2, 4, Registers::getPersistentAsColor(BERLIN_UHR_COLOR_RED));
-        showDigit(floor(t.h % 5), 9, 2, 4, Registers::getPersistentAsColor(BERLIN_UHR_COLOR_RED));
+        showDigit(floor(t.h / 5), 1, 2, 4, Registers::getAsColor(BERLIN_UHR_COLOR_RED));
+        showDigit(floor(t.h % 5), 9, 2, 4, Registers::getAsColor(BERLIN_UHR_COLOR_RED));
 
-        showDigit(floor(t.m / 5), 17, 1, 11, Registers::getPersistentAsColor(BERLIN_UHR_COLOR_YELLOW), 3, Registers::getPersistentAsColor(BERLIN_UHR_COLOR_RED));
-        showDigit(floor(t.m % 5), 28, 2, 4, Registers::getPersistentAsColor(BERLIN_UHR_COLOR_YELLOW));
+        showDigit(floor(t.m / 5), 17, 1, 11, Registers::getAsColor(BERLIN_UHR_COLOR_YELLOW), 3, Registers::getAsColor(BERLIN_UHR_COLOR_RED));
+        showDigit(floor(t.m % 5), 28, 2, 4, Registers::getAsColor(BERLIN_UHR_COLOR_YELLOW));
 
         WS2812::refresh();
     }

@@ -48,7 +48,7 @@ namespace DS1307
         UTWI::readRegisters(DS1307_ADDR, DS1307_RAM_BASE, _twiBuf, 1);
         bool setTimeIsDst = (_twiBuf[0] == 1);
 
-        if (Registers::getPersistent(DST_REGISTER) == DST_AUTO)
+        if (Registers::get(DST_REGISTER) == DST_AUTO)
         {
             uint8_t daysToNextSunday = ((7 - dateTime.dayOfWeek + 6) % 7) + 1;
 
@@ -103,7 +103,7 @@ namespace DS1307
         else
         {
             dateTime.dstChangeAnnounce = false;
-            dateTime.dst = (Registers::getPersistent(DST_REGISTER) == DST_ON);
+            dateTime.dst = (Registers::get(DST_REGISTER) == DST_ON);
         }
 
         // If there has been a change in DST on/off since the last time we set the time we need to set the time.

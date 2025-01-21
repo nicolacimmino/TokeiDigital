@@ -78,13 +78,13 @@ namespace Face
             {
                 if (number >= weights[ix])
                 {
-                    WS2812::setColor(startIndex + ix, Registers::getPersistentAsColor(positionColor[startIndex + ix]));
+                    WS2812::setColor(startIndex + ix, Registers::getAsColor(positionColor[startIndex + ix]));
                     number -= weights[ix];
                     oneBits++;
                 }
                 else
                 {
-                    WS2812::setColor(startIndex + ix, Registers::getPersistentAsColor(DCF77_COLOR_OFF));
+                    WS2812::setColor(startIndex + ix, Registers::getAsColor(DCF77_COLOR_OFF));
                 }
             }
             return oneBits;
@@ -106,12 +106,12 @@ namespace Face
         if ((t.s & 0x80) == 0)
         {
             // RTC is running, blink seconds (M, minute marker, not DCF protocol like but to show activity).
-            WS2812::setColor(0, (t.s % 2) ? Registers::getPersistentAsColor(positionColor[0]) : Registers::getPersistentAsColor(DCF77_COLOR_OFF));
+            WS2812::setColor(0, (t.s % 2) ? Registers::getAsColor(positionColor[0]) : Registers::getAsColor(DCF77_COLOR_OFF));
         }
         else
         {
             // RTC is halted, steady M on.
-            WS2812::setColor(0, Registers::getPersistentAsColor(positionColor[0]));
+            WS2812::setColor(0, Registers::getAsColor(positionColor[0]));
         }
 
         showNumber(0, 1, 8);                            // Civil Warning
@@ -144,7 +144,7 @@ namespace Face
         {
             for (uint8_t ix = 0; ix < DCF77_LED_COUNT; ix++)
             {
-                WS2812::setColor(ix, Registers::getPersistentAsColor(positionColor[ix]));
+                WS2812::setColor(ix, Registers::getAsColor(positionColor[ix]));
             }
 
             WS2812::refresh();
@@ -161,7 +161,7 @@ namespace Face
 
         showTimeImplDCF(t);
 
-        Color::RGB secondsHandColor = Registers::getPersistentAsColor(DCF77_COLOR_SECOND_HAND);
+        Color::RGB secondsHandColor = Registers::getAsColor(DCF77_COLOR_SECOND_HAND);
         if (secondsHandColor.r != 0 || secondsHandColor.g != 0 || secondsHandColor.b != 0)
         {
             WS2812::setColor(t.s, secondsHandColor);
