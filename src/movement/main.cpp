@@ -29,6 +29,7 @@
 #include "Registers.h"
 #include "SerialInterface.h"
 #include "TimeSetter.h"
+#include "Diagnostic.h"
 
 void refreshFace()
 {
@@ -38,8 +39,10 @@ void refreshFace()
 int main(void)
 {
     wdt_enable(WDTO_8S);
-
+    
     AMOS::init();
+    Diagnostic::init();
+    
     SerialInterface::init();
 
     SerialInterface::printStartup();

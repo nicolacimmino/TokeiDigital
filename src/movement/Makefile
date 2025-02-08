@@ -20,7 +20,8 @@ OBJECTS    = Registers.o\
 				faceDrivers\BerlinUhr.o\
 				faceDrivers\DCF77.o\
 				faceDrivers\Face.o\
-				Color.o
+				Color.o\
+				Diagnostic.o
 				
  FUSES      = -U lfuse:w:0xFF:m -U hfuse:w:0xDE:m -U efuse:w:0x05:m
 ######################################################################

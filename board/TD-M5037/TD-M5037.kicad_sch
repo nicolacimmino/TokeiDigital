@@ -1440,6 +1440,15 @@
     (uuid fe78770c-701a-4aaf-a62a-7b97216c9007)
   )
 
+  (text "*1) C4 should be omitted if the Arduino \nbootloader is flashed. This allows for a\nmore reliable reset when the DTR line is toggled.\n\nIterations past REV.A will remove this cap anyway."
+    (at 55.88 111.76 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 540bba1b-d609-48f7-9426-d53ae05b7b76)
+  )
+  (text "*1)" (at 106.68 69.215 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6dbefa42-b1cf-4e8c-80e6-9f0da8a98f3d)
+  )
   (text "RX" (at 73.66 90.17 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 88070c56-8609-4b68-a218-83620f3601b9)
