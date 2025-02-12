@@ -28,8 +28,6 @@
 
 #ifdef FACE_BERLIN_UHR
 
-#define FACE_ID "BERUHR"
-
 #define BERLIN_UHR_LED_COUNT 36
 
 #define BERLIN_UHR_LUM_LEVELS 4

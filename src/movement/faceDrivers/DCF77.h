@@ -24,12 +24,9 @@
 #include "../ws2812.h"
 #include "../DS1307.h"
 #include "../AMOS.h"
-#include "../Registers.h"
 #include "Face.h"
 
 #ifdef FACE_DCF77
-
-#define FACE_ID "DCF77"
 
 #define DCF77_LED_COUNT 60
 

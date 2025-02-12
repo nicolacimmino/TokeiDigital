@@ -8,6 +8,9 @@ DEVICE     = atmega328p
 CLOCK      = 16000000UL
 PROGRAMMER = -c USBasp
 OBJECTS    = Registers.o\
+				faceDrivers\BerlinUhr.o\
+				faceDrivers\DCF77.o\
+				faceDrivers\Face.o\
 				SerialInterface.o\
 				Button.o\
 				AMOS.o\
@@ -17,9 +20,6 @@ OBJECTS    = Registers.o\
 				UART.o\
 				ws2812.o\
 				TimeSetter.o\
-				faceDrivers\BerlinUhr.o\
-				faceDrivers\DCF77.o\
-				faceDrivers\Face.o\
 				Color.o\
 				Diagnostic.o
 				

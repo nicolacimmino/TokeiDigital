@@ -26,8 +26,8 @@
 #include <stdint.h>
 #include "../hardware.h"
 #include "../events.h"
-#include "BerlinUhr.h"
 #include "DCF77.h"
+#include "BerlinUhr.h"
 
 #define FACE_REG_BASE 0x40
 
@@ -48,10 +48,6 @@
 #define CAN_SET_YEAR 32
 
 #define DISPLAY_MODE_IS_SETTING(X) ((X & 0x80) != 0)
-
-#ifndef FACE_ID
-#define FACE_ID "NONE"
-#endif
 
 namespace Face
 {

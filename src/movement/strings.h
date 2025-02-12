@@ -3,14 +3,24 @@
 #define __STRINGS_H__
 
 #include <avr/pgmspace.h>
-#include "firmware.h"
 #include "faceDrivers/Face.h"
-#include "faceDrivers/BerlinUhr.h"
 #include "faceDrivers/DCF77.h"
+#include "faceDrivers/BerlinUhr.h"
+#include "firmware.h"
 
 #define S_SI_STARTUP 0
 #define S_SI_STARTUP_DONE 1
 #define S_SI_BANNER 2
+
+#ifdef FACE_DCF77
+#define FACE_ID "DCF77"
+#endif
+#ifdef FACE_BERLIN_UHR
+#define FACE_ID "BERUHR"
+#endif
+#ifndef FACE_ID
+#define FACE_ID "NONE"
+#endif
 
 const char s_si_startup[] PROGMEM =
     "TOKEI DIGITAL MOVEMENT 5037\r\n"
