@@ -4,7 +4,7 @@ TokeiDigital [to̞ke̞ːdigital] is a line of clocks for geeks, nerds, and maker
 
 * You believe a UART is a cool interface to setup a clock.
 * You believe setting registers HEX values in a terminal is a good way to change LED colors and tweak settings.
-* You believe a watch that just shows time with two hands is boring.
+* You believe a clock that just shows time with two hands is boring.
 
 ### Models
 
