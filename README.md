@@ -17,4 +17,4 @@ TokeiDigital [to̞ke̞ːdigital] is a line of clocks for geeks, nerds, and maker
 
 |Model|Description|UART|Backup<br>Battery|W (mm)|H (mm)|
 |-----|-----------|--------|----|---|----|
-| [TD-M5037](board/TD-M5037)|Basic but powerful movement.|X|CR20232|50|37|
+| [TD-M5037](board/TD-M5037)|Basic but powerful movement.|X|CR2032|50|37|
