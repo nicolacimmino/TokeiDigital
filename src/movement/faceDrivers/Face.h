@@ -21,8 +21,6 @@
 #ifndef __FACE_H__
 #define __FACE_H__
 
-// #define FACE_BERLIN_UHR
-
 #include <stdint.h>
 #include "../hardware.h"
 #include "../events.h"
