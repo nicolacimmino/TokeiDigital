@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TokeiDigital")(type "KiCad")(uri "C:/Users/nicola/git/TokeiDigital/board/TokeiDigital.pretty")(options "")(descr ""))
+)

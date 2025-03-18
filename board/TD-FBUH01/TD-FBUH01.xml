@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\nicola\git\ClockIt\board\FaceBerlinUhr\FaceBerlinUhr.kicad_sch</source>
+    <date>23/11/2024 11:05:10</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Berlin Uhr</title>
+        <company/>
+        <rev/>
+        <date>2024-09-22</date>
+        <source>FaceBerlinUhr.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f953a720-4150-4cd6-bc3d-bf2ec62ed371</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4ecb2be-ed4a-49ef-bc38-7db33a6c5186</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e59d07a-95c0-4d35-890c-60398ed77a62</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fe7887f-4ecf-4f25-b330-63cd79001be7</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18bcba0b-0c52-497a-a195-c33037f6f6f7</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdc1fc95-2eb6-43c2-9875-3eaba9d27f12</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b623faed-6b74-4e0d-bfe1-cc8d1c486a6a</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc50e89d-d7a6-47e1-81d2-453a723d1b12</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49cf28c2-f6ee-4f2e-832d-610e681a5e21</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f418db91-41a9-4d57-8fd5-eb1727a90c58</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a87bff0-a1a7-49d3-9ce6-3b52c09a7c6a</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23437f67-aeea-451f-9f03-cd6a3ba2677e</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c54fac66-95a1-4546-a91c-2734d1ae5b28</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c690a597-9b7c-47c7-b267-6e2048d741ac</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>965a77da-218f-4e6b-8800-5915a191ca02</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d0a727d-be75-4044-88b8-abd54dfef2a2</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90268a50-e31f-47a7-9607-a462ab6316a2</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>347337d6-a32c-4a11-ba52-bc26fe817151</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47a3a076-b798-4ff3-a18b-81a966cf07c0</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7da59859-cc72-42b0-bfd9-fbb072b9d9b6</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c18922d-a435-44b1-8d26-b5022cc90bd8</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>388fdffc-a46c-4d3d-8c32-8d27396b0426</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96bb5987-9a94-407b-a2e9-ac6ffb1a7880</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d152d5f5-f69d-4bd1-b496-f43efb7ba7a1</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21055aab-cd7f-43a9-8020-509200e39c08</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc7b3b84-64c9-42ef-a2ea-3bb70ea53374</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dbae4fd-2307-429c-98a6-6edb573a405b</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efbaa6dc-31f4-4e35-943f-579e3c4e6bd1</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a27ac03-022f-4b8e-83a0-c56b3099cda1</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a20a44b2-62b7-498b-810d-8363220217e9</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8834726-2680-427e-b2de-8a2e79524bd2</tstamps>
+    </comp>
+    <comp ref="D32">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>630efc62-96f9-45f7-91d6-987c0e370a1d</tstamps>
+    </comp>
+    <comp ref="D33">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4a1c1ff-bc66-4315-bc22-b3f36709cb07</tstamps>
+    </comp>
+    <comp ref="D34">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f321a219-fcb9-436f-b671-ad21eb328982</tstamps>
+    </comp>
+    <comp ref="D35">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57de8f94-82fd-43e5-a150-0499a0239da5</tstamps>
+    </comp>
+    <comp ref="D36">
+      <value>~</value>
+      <footprint>ClockIt:WS2812-5MM</footprint>
+      <libsource lib="ClockIt" part="WS2812-5MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa0955cb-9a99-4592-9aa2-ade3043823e3</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>ClockIt:Tactile SW SMD</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ea724a0-40c8-45bb-9209-06355f0dbee4</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>ClockIt:Tactile SW SMD</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92f989fb-8eac-450c-87ba-923f44ae7819</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>ClockIt:Tactile SW SMD</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24cc8be8-9ef6-44f3-bb4d-4322349f409b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>~</value>
+      <footprint>ClockIt:Movement5037 TH</footprint>
+      <libsource lib="ClockIt" part="Movement5037" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FaceBerlinUhr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>917fb825-aae6-4b1f-a76b-a3180b7bc3f2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ClockIt" part="Movement5037">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="BTNC" type="input"/>
+        <pin num="4" name="BTNB" type="input"/>
+        <pin num="5" name="BTNA" type="input"/>
+        <pin num="6" name="+5" type="power_out"/>
+        <pin num="7" name="WS2812D" type="output"/>
+        <pin num="8" name="TM1637CLK" type="output"/>
+        <pin num="9" name="TM1637DIO" type="bidirectional"/>
+        <pin num="10" name="TIMEC" type="output"/>
+        <pin num="11" name="TIMED" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="ClockIt" part="WS2812-5MM">
+      <fields>
+        <field name="Reference">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIn" type="input"/>
+        <pin num="2" name="Vcc" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="DOut" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ClockIt">
+      <uri>C:/Users/nicola/git/ClockIt/board/ClockIt.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="D1" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D10" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D11" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D12" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D13" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D14" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D15" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D16" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D17" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D18" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D19" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D2" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D20" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D21" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D22" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D23" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D24" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D25" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D26" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D27" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D28" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D29" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D3" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D30" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D31" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D32" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D33" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D34" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D35" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D36" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D4" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D5" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D6" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D7" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D8" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="D9" pin="2" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="+5" pintype="power_out"/>
+    </net>
+    <net code="2" name="/LEDD">
+      <node ref="D1" pin="1" pinfunction="DIn" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="WS2812D" pintype="output"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="D1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D10" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D11" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D12" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D13" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D14" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D15" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D16" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D17" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D18" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D19" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D20" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D21" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D22" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D23" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D24" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D25" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D26" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D27" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D28" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D29" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D30" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D31" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D32" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D33" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D34" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D35" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D36" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D5" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D6" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D7" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D8" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D9" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="4" name="Net-(D1-DOut)">
+      <node ref="D1" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D2" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(D2-DOut)">
+      <node ref="D2" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D3" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(D3-DOut)">
+      <node ref="D3" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D4" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(D4-DOut)">
+      <node ref="D4" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D5" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(D5-DOut)">
+      <node ref="D5" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D6" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(D6-DOut)">
+      <node ref="D6" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D7" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(D7-DOut)">
+      <node ref="D7" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D8" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(D8-DOut)">
+      <node ref="D8" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D9" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(D10-DIn)">
+      <node ref="D10" pin="1" pinfunction="DIn" pintype="input"/>
+      <node ref="D9" pin="4" pinfunction="DOut" pintype="output"/>
+    </net>
+    <net code="13" name="Net-(D10-DOut)">
+      <node ref="D10" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D11" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(D11-DOut)">
+      <node ref="D11" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D12" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(D12-DOut)">
+      <node ref="D12" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D13" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(D13-DOut)">
+      <node ref="D13" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D14" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(D14-DOut)">
+      <node ref="D14" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D15" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(D15-DOut)">
+      <node ref="D15" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D16" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(D16-DOut)">
+      <node ref="D16" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D17" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(D17-DOut)">
+      <node ref="D17" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D18" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(D18-DOut)">
+      <node ref="D18" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D19" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(D19-DOut)">
+      <node ref="D19" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D20" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(D20-DOut)">
+      <node ref="D20" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D21" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(D21-DOut)">
+      <node ref="D21" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D22" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(D22-DOut)">
+      <node ref="D22" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D23" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(D23-DOut)">
+      <node ref="D23" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D24" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(D24-DOut)">
+      <node ref="D24" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D25" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(D25-DOut)">
+      <node ref="D25" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D26" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(D26-DOut)">
+      <node ref="D26" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D27" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(D27-DOut)">
+      <node ref="D27" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D28" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(D28-DOut)">
+      <node ref="D28" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D29" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(D29-DOut)">
+      <node ref="D29" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D30" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(D30-DOut)">
+      <node ref="D30" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D31" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(D31-DOut)">
+      <node ref="D31" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D32" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(D32-DOut)">
+      <node ref="D32" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D33" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(D33-DOut)">
+      <node ref="D33" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D34" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(D34-DOut)">
+      <node ref="D34" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D35" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="38" name="Net-(D35-DOut)">
+      <node ref="D35" pin="4" pinfunction="DOut" pintype="output"/>
+      <node ref="D36" pin="1" pinfunction="DIn" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(U1-BTNA)">
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="BTNA" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(U1-BTNB)">
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="BTNB" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(U1-BTNC)">
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="BTNC" pintype="input"/>
+    </net>
+    <net code="42" name="unconnected-(D36-DOut-Pad4)">
+      <node ref="D36" pin="4" pinfunction="DOut" pintype="output+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-NC-Pad2)">
+      <node ref="U1" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-TIMEC-Pad10)">
+      <node ref="U1" pin="10" pinfunction="TIMEC" pintype="output+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-TIMED-Pad11)">
+      <node ref="U1" pin="11" pinfunction="TIMED" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-TM1637CLK-Pad8)">
+      <node ref="U1" pin="8" pinfunction="TM1637CLK" pintype="output+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-TM1637DIO-Pad9)">
+      <node ref="U1" pin="9" pinfunction="TM1637DIO" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
