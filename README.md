@@ -15,8 +15,10 @@ Additionally you can buy them as kits ready to assemble on Tindie: https://www.t
 
 |Model|Description|Time|Date|DST|LEDs|Movement|
 |-----|-----------|--------|----|---|----|----|
-| [TD-FBUH01](board/TD-FBUH01) |Reproduction of the iconic Berlin Uhr.|X||X|36 RGB|TD-M5037|
+| [TD-FBUH01](board/TD-FBUH01) |Reproduction of the iconic Berlin Uhr.|X||X*1|36 RGB|TD-M5037|
 | [TD-FDCF01](board/TD-FDCF01) |60 LEDs display time encoded as DCF77 bitstream.|X|X|X|60 RGB|TD-M5037|
+
+<sub>*1) How can DST work if there's no date? The movment, internally, tracks the date, but the clock face doesn't have LEDs to show it. For DST Auto to work correctly you will need to set the date using the serial interface.</sub>
 
 ### Movements
 
