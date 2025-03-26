@@ -6,8 +6,8 @@ TokeiDigital [to̞ke̞ːdigital] is a line of clocks for geeks, nerds, and maker
 * You believe setting registers HEX values in a terminal is a good way to change LED colors and tweak settings.
 * You believe a clock that just shows time with two hands is boring.
 
-All models come with full schematics, PBCs, source code and all tools needed to program the clock. The project is OSHWA certified (PL000019).
 ![image](https://github.com/user-attachments/assets/ee7bf6c8-7b72-4825-88ab-eacb489856fa)
+All models come with full schematics, PBCs, source code and all tools needed to program the clock. The project is OSHWA certified (PL000019).
 
 Additionally you can buy them as kits ready to assemble on Tindie: https://www.tindie.com/stores/nicola_cimmino/
 
