@@ -57,7 +57,7 @@ namespace Face
     void nextDisplayOption();
     void initImpl() __attribute__((weak));
     void showTimeImpl(DateTime t) __attribute__((weak));
-    void nextDisplayOprionImpl() __attribute__((weak));
+    void nextDisplayOptionImpl() __attribute__((weak));
 };
 
 #endif

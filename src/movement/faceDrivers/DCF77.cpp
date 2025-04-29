@@ -6,6 +6,8 @@ namespace Face
 {
     namespace
     {
+        uint8_t displayOption = 0;
+        
         uint8_t weights[] = {1, 2, 4, 8, 10, 20, 40, 80};
 
         uint8_t positionColor[] = {
@@ -71,6 +73,11 @@ namespace Face
             DCF77_COLOR_MARK,  // 59: Minute Mark
         };
 
+        Color::RGB getColorFromTable(uint8_t position) {
+            return Registers::getAsColor(DCF_COLOR_OFFSET(displayOption)+position);
+            
+        }
+
         uint8_t showNumber(uint8_t number, uint8_t startIndex, uint8_t bits)
         {
             uint8_t oneBits = 0;
@@ -78,13 +85,13 @@ namespace Face
             {
                 if (number >= weights[ix])
                 {
-                    WS2812::setColor(startIndex + ix, Registers::getAsColor(positionColor[startIndex + ix]));
+                    WS2812::setColor(startIndex + ix, getColorFromTable(positionColor[startIndex + ix]));
                     number -= weights[ix];
                     oneBits++;
                 }
                 else
                 {
-                    WS2812::setColor(startIndex + ix, Registers::getAsColor(DCF77_COLOR_OFF));
+                    WS2812::setColor(startIndex + ix, getColorFromTable(DCF77_COLOR_OFF));
                 }
             }
             return oneBits;
@@ -101,17 +108,21 @@ namespace Face
                        CAN_SET_YEAR;
     }
 
+    void nextDisplayOptionImpl() {
+        displayOption = (displayOption + 1) % DCF77_DISPLAY_OPTIONS;
+    }
+
     void showTimeImplDCF(DateTime t)
     {
         if ((t.s & 0x80) == 0)
         {
             // RTC is running, blink seconds (M, minute marker, not DCF protocol like but to show activity).
-            WS2812::setColor(0, (t.s % 2) ? Registers::getAsColor(positionColor[0]) : Registers::getAsColor(DCF77_COLOR_OFF));
+            WS2812::setColor(0, (t.s % 2) ? getColorFromTable(positionColor[0]) : getColorFromTable(DCF77_COLOR_OFF));
         }
         else
         {
             // RTC is halted, steady M on.
-            WS2812::setColor(0, Registers::getAsColor(positionColor[0]));
+            WS2812::setColor(0, getColorFromTable(positionColor[0]));
         }
 
         showNumber(0, 1, 8);                            // Civil Warning
@@ -144,7 +155,7 @@ namespace Face
         {
             for (uint8_t ix = 0; ix < DCF77_LED_COUNT; ix++)
             {
-                WS2812::setColor(ix, Registers::getAsColor(positionColor[ix]));
+                WS2812::setColor(ix, getColorFromTable(positionColor[ix]));
             }
 
             WS2812::refresh();
@@ -161,7 +172,7 @@ namespace Face
 
         showTimeImplDCF(t);
 
-        Color::RGB secondsHandColor = Registers::getAsColor(DCF77_COLOR_SECOND_HAND);
+        Color::RGB secondsHandColor = getColorFromTable(DCF77_COLOR_SECOND_HAND);
         if (secondsHandColor.r != 0 || secondsHandColor.g != 0 || secondsHandColor.b != 0)
         {
             WS2812::setColor(t.s, secondsHandColor);
