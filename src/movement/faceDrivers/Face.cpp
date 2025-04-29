@@ -59,9 +59,9 @@ namespace Face
 
     void nextDisplayOption()
     {
-        if (nextDisplayOprionImpl)
+        if (nextDisplayOptionImpl)
         {
-            Face::nextDisplayOprionImpl();
+            Face::nextDisplayOptionImpl();
         }
         // else do nothing, default face has only one level.
     }

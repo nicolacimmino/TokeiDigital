@@ -42,10 +42,16 @@
 #define DCF77_COLOR_CIVIL FACE_REG_BASE + 27
 #define DCF77_COLOR_SECOND_HAND FACE_REG_BASE + 30
 
+#define DCF77_COLOR_TABLE_SIZE 48
+#define DCF77_DISPLAY_OPTIONS 4
+
+#define DCF_COLOR_OFFSET(X) X*DCF77_COLOR_TABLE_SIZE
+
 namespace Face
 {
     void initImpl();
     void showTimeImpl(DateTime t);
+    void nextDisplayOptionImpl();
 };
 
 #endif

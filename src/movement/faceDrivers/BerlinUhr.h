@@ -39,7 +39,7 @@
 namespace Face
 {
     void showTimeImpl(DateTime t);
-    void nextDisplayOprionImpl();
+    void nextDisplayOptionImpl();
 };
 
 #endif
