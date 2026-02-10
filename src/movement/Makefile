@@ -1,81 +1,84 @@
-
 ######################################################################
-## You need to specify the active face in the make, eg:
+## Usage:
 ## make flash EXTRAFLAGS=-DFACE_BERLIN_UHR
 ######################################################################
 
 DEVICE     = atmega328p
 CLOCK      = 16000000UL
 PROGRAMMER = -c USBasp
-OBJECTS    = Registers.o\
-				faceDrivers\BerlinUhr.o\
-				faceDrivers\DCF77.o\
-				faceDrivers\Face.o\
-				SerialInterface.o\
-				Button.o\
-				AMOS.o\
-				DS1307.o\
-				main.o\
-				uTWI.o\
-				UART.o\
-				ws2812.o\
-				TimeSetter.o\
-				Color.o\
-				Diagnostic.o
-				
- FUSES      = -U lfuse:w:0xFF:m -U hfuse:w:0xDE:m -U efuse:w:0x05:m
-######################################################################
-######################################################################
 
-# Tune the lines below only if you know what you are doing:
+BUILD_DIR := .build
+
+FUSES = -U lfuse:w:0xFF:m -U hfuse:w:0xDE:m -U efuse:w:0x05:m
+
+######################################################################
+# Toolchain
 
 AVRDUDE = avrdude $(PROGRAMMER) -p $(DEVICE)
-COMPILE = C:\Users\nicola\AppData\Local\Arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino5\bin\avr-gcc -std=c++11 -Wall -Os -DF_CPU=$(CLOCK) -mmcu=$(DEVICE) $(EXTRAFLAGS)
+COMPILE = avr-gcc -std=c++11 -Wall -Os -DF_CPU=$(CLOCK) -mmcu=$(DEVICE) $(EXTRAFLAGS)
 
-# symbolic targets:
-all:	main.hex
+OBJCOPY = avr-objcopy
+OBJDUMP = avr-objdump
 
-.cpp.o:
-	$(COMPILE) -c $< -o $@
+######################################################################
+# Recursive wildcard (pure GNU Make, Windows-safe)
 
-.S.o:
-	$(COMPILE) -x assembler-with-cpp -c $< -o $@
-# "-x assembler-with-cpp" should not be necessary since this is the default
-# file type for the .S (with capital S) extension. However, upper case
-# characters are not always preserved on Windows. To ensure WinAVR
-# compatibility define the file type manually.
+rwildcard = \
+  $(foreach d,$(wildcard $1*), \
+    $(call rwildcard,$d/,$2)) \
+  $(filter $(subst *,%,$2),$(wildcard $1$2))
 
-.c.s:
-	$(COMPILE) -S $< -o $@
+SRC_CPP := $(call rwildcard,./,*.cpp)
 
-flash:	all
-	$(AVRDUDE) -U flash:w:main.hex:i
+OBJECTS := $(patsubst ./%, $(BUILD_DIR)/%, $(SRC_CPP:.cpp=.o))
+
+######################################################################
+# Targets
+
+all: $(BUILD_DIR)/main.hex
+
+flash: all
+	$(AVRDUDE) -U flash:w:$(BUILD_DIR)/main.hex:i
 	$(AVRDUDE) -U eeprom:w:faceDrivers/eeprom/$(EEPROM_FILE):i
-	
+
 fuse:
 	$(AVRDUDE) $(FUSES)
 
-install: flash fuse
+install: fuse flash
 
 clean:
-	rm -f main.hex main.elf main.c.lst main.lss main.map $(OBJECTS)
+	rm -rf $(BUILD_DIR)
 
-# file targets:
-main.elf: $(OBJECTS)
-	$(COMPILE) -o main.elf $(OBJECTS)
+######################################################################
+# Linking
 
-main.hex: main.elf
-	rm -f main.hex
-	avr-objcopy -j .text -j .data -O ihex main.elf main.hex
-	avr-objcopy\
-		-j .eeprom\
-		--set-section-flags=.eeprom="alloc,load"\
-		--change-section-lma .eeprom=0\
-		-O ihex main.elf main.eeprom.hex
+$(BUILD_DIR)/main.elf: $(OBJECTS)
+	$(COMPILE) -o $@ $(OBJECTS)
 
-# Targets for code debugging and analysis:
-disasm:	main.elf
-	avr-objdump -d main.elf
+######################################################################
+# HEX / EEPROM
+
+$(BUILD_DIR)/main.hex: $(BUILD_DIR)/main.elf
+	rm -f $@
+	$(OBJCOPY) -j .text -j .data -O ihex $< $@
+	$(OBJCOPY) \
+		-j .eeprom \
+		--set-section-flags=.eeprom="alloc,load" \
+		--change-section-lma .eeprom=0 \
+		-O ihex $< $(BUILD_DIR)/main.eeprom.hex
+
+######################################################################
+# Compilation rule
+
+$(BUILD_DIR)/%.o: %.cpp
+	mkdir -p $(dir $@)
+	$(COMPILE) -c $< -o $@
+
+######################################################################
+# Debug helpers
+
+disasm: $(BUILD_DIR)/main.elf
+	$(OBJDUMP) -d $<
 
 cpp:
-	$(COMPILE) -E main.c
+	$(COMPILE) -E main.cpp
