@@ -1,0 +1,156 @@
+# TD-FDCF01A Register Map — Face Registers (4 colour palettes)
+# Each palette covers 0x30 bytes and contains the same 11 RGB entries.
+# Entry Start values are offsets relative to the palette's Start address.
+# Palette 0 maps to the addresses documented on page 19-20 of the manual.
+
+Palette 0:
+  Start: 0x40
+  End: 0x6F
+  Entries:
+    - OFF LEDs:
+        Size: 3
+        Start: 0x00
+    - Minutes LEDs:
+        Size: 3
+        Start: 0x03
+    - Hours LEDs:
+        Size: 3
+        Start: 0x06
+    - Day of Month LEDs:
+        Size: 3
+        Start: 0x09
+    - Day of Week LEDs:
+        Size: 3
+        Start: 0x0C
+    - Month LEDs:
+        Size: 3
+        Start: 0x0F
+    - Year LEDs:
+        Size: 3
+        Start: 0x12
+    - Flags LEDs:
+        Size: 3
+        Start: 0x15
+    - Markers LEDs:
+        Size: 3
+        Start: 0x18
+    - Civil Warning Bits LEDs:
+        Size: 3
+        Start: 0x1B
+    - Seconds Hand LEDs:
+        Size: 3
+        Start: 0x1E
+
+Palette 1:
+  Start: 0x70
+  End: 0x9F
+  Entries:
+    - OFF LEDs:
+        Size: 3
+        Start: 0x00
+    - Minutes LEDs:
+        Size: 3
+        Start: 0x03
+    - Hours LEDs:
+        Size: 3
+        Start: 0x06
+    - Day of Month LEDs:
+        Size: 3
+        Start: 0x09
+    - Day of Week LEDs:
+        Size: 3
+        Start: 0x0C
+    - Month LEDs:
+        Size: 3
+        Start: 0x0F
+    - Year LEDs:
+        Size: 3
+        Start: 0x12
+    - Flags LEDs:
+        Size: 3
+        Start: 0x15
+    - Markers LEDs:
+        Size: 3
+        Start: 0x18
+    - Civil Warning Bits LEDs:
+        Size: 3
+        Start: 0x1B
+    - Seconds Hand LEDs:
+        Size: 3
+        Start: 0x1E
+
+Palette 2:
+  Start: 0xA0
+  End: 0xCF
+  Entries:
+    - OFF LEDs:
+        Size: 3
+        Start: 0x00
+    - Minutes LEDs:
+        Size: 3
+        Start: 0x03
+    - Hours LEDs:
+        Size: 3
+        Start: 0x06
+    - Day of Month LEDs:
+        Size: 3
+        Start: 0x09
+    - Day of Week LEDs:
+        Size: 3
+        Start: 0x0C
+    - Month LEDs:
+        Size: 3
+        Start: 0x0F
+    - Year LEDs:
+        Size: 3
+        Start: 0x12
+    - Flags LEDs:
+        Size: 3
+        Start: 0x15
+    - Markers LEDs:
+        Size: 3
+        Start: 0x18
+    - Civil Warning Bits LEDs:
+        Size: 3
+        Start: 0x1B
+    - Seconds Hand LEDs:
+        Size: 3
+        Start: 0x1E
+
+Palette 3:
+  Start: 0xD0
+  End: 0xFF
+  Entries:
+    - OFF LEDs:
+        Size: 3
+        Start: 0x00
+    - Minutes LEDs:
+        Size: 3
+        Start: 0x03
+    - Hours LEDs:
+        Size: 3
+        Start: 0x06
+    - Day of Month LEDs:
+        Size: 3
+        Start: 0x09
+    - Day of Week LEDs:
+        Size: 3
+        Start: 0x0C
+    - Month LEDs:
+        Size: 3
+        Start: 0x0F
+    - Year LEDs:
+        Size: 3
+        Start: 0x12
+    - Flags LEDs:
+        Size: 3
+        Start: 0x15
+    - Markers LEDs:
+        Size: 3
+        Start: 0x18
+    - Civil Warning Bits LEDs:
+        Size: 3
+        Start: 0x1B
+    - Seconds Hand LEDs:
+        Size: 3
+        Start: 0x1E
