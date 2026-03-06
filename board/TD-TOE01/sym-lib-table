@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TokeiDigita")(type "KiCad")(uri "../TokeiDigital.kicad_sym")(options "")(descr ""))
+)

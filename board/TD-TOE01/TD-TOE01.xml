@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\nicola\git\TokeiDigital\board\Movement5037\Movement5037.kicad_sch</source>
+    <date>16/01/2025 13:49:36</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Movement5037.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>CR3032 Holder</value>
+      <footprint>ClockIt:CR2032 Holder</footprint>
+      <fields>
+        <field name="Buy">https://www.aliexpress.com/item/1005004660807727.html?spm=a2g0o.productlist.main.3.5246HApeHApeWB&amp;algo_pvid=0ba51ece-a9bb-4de8-be75-c1e5337e6a1c&amp;algo_exp_id=0ba51ece-a9bb-4de8-be75-c1e5337e6a1c-1&amp;pdp_npi=4%40dis%21EUR%211.70%211.7%21%21%211.76%21%21%40211b600216970418084195939eaba4%2112000030016612364%21sea%21PL%212225465097%21&amp;curPageLogUid=ohHIYwya9AUz</field>
+        <field name="Price">0.170</field>
+      </fields>
+      <libsource lib="ClockIt" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Buy" value="https://www.aliexpress.com/item/1005004660807727.html?spm=a2g0o.productlist.main.3.5246HApeHApeWB&amp;algo_pvid=0ba51ece-a9bb-4de8-be75-c1e5337e6a1c&amp;algo_exp_id=0ba51ece-a9bb-4de8-be75-c1e5337e6a1c-1&amp;pdp_npi=4%40dis%21EUR%211.70%211.7%21%21%211.76%21%21%40211b600216970418084195939eaba4%2112000030016612364%21sea%21PL%212225465097%21&amp;curPageLogUid=ohHIYwya9AUz"/>
+      <property name="Price" value="0.170"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1124de5b-d2ba-46ad-93c5-0948efe059f9</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>22p</value>
+      <footprint>ClockIt:C_0805</footprint>
+      <fields>
+        <field name="Buy">N/A Included in U1</field>
+        <field name="Price">0.000</field>
+      </fields>
+      <libsource lib="ClockIt" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Buy" value="N/A Included in U1"/>
+      <property name="Price" value="0.000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed39117c-4764-4b3f-b836-d961647bec56</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22p</value>
+      <footprint>ClockIt:C_0805</footprint>
+      <fields>
+        <field name="Buy">N/A Included in U1</field>
+        <field name="Price">0.000</field>
+      </fields>
+      <libsource lib="ClockIt" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Buy" value="N/A Included in U1"/>
+      <property name="Price" value="0.000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb3d3b39-01d6-4b4a-9189-594d184e65a7</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>ClockIt:C_0805</footprint>
+      <fields>
+        <field name="Buy">https://www.aliexpress.com/item/1005003580268418.html?spm=a2g0o.order_list.order_list_main.126.286e1802OXD0oC</field>
+        <field name="Price">0.017</field>
+      </fields>
+      <libsource lib="ClockIt" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Buy" value="https://www.aliexpress.com/item/1005003580268418.html?spm=a2g0o.order_list.order_list_main.126.286e1802OXD0oC"/>
+      <property name="Price" value="0.017"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8851914e-4a70-4da8-bd6b-674c75efcd29</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>ClockIt:C_0805</footprint>
+      <fields>
+        <field name="Buy">https://www.aliexpress.com/item/1005003580268418.html?spm=a2g0o.order_list.order_list_main.126.286e1802OXD0oC</field>
+        <field name="Price">0.017</field>
+      </fields>
+      <libsource lib="ClockIt" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Buy" value="https://www.aliexpress.com/item/1005003580268418.html?spm=a2g0o.order_list.order_list_main.126.286e1802OXD0oC"/>
+      <property name="Price" value="0.017"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a8f74de-2498-4759-96f1-d43648ca72e9</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>ClockIt:C_0805</footprint>
+      <fields>
+        <field name="Buy">https://www.aliexpress.com/item/1005003580268418.html?spm=a2g0o.order_list.order_list_main.126.286e1802OXD0oC</field>
+        <field name="Price">0.017</field>
+      </fields>
+      <libsource lib="ClockIt" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Buy" value="https://www.aliexpress.com/item/1005003580268418.html?spm=a2g0o.order_list.order_list_main.126.286e1802OXD0oC"/>
+      <property name="Price" value="0.017"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8cd29ed1-b9bf-4f7b-9c3e-def8addb84b8</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>ClockIt:C_0805</footprint>
+      <fields>
+        <field name="Buy">https://www.aliexpress.com/item/1005003580268418.html?spm=a2g0o.order_list.order_list_main.126.286e1802OXD0oC</field>
+        <field name="Price">0.017</field>
+      </fields>
+      <libsource lib="ClockIt" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Buy" value="https://www.aliexpress.com/item/1005003580268418.html?spm=a2g0o.order_list.order_list_main.126.286e1802OXD0oC"/>
+      <property name="Price" value="0.017"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f631a32d-a691-476a-895b-ac3a84884d9b</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>ClockIt:C_0805</footprint>
+      <fields>
+        <field name="Buy">https://www.aliexpress.com/item/1005003580268418.html?spm=a2g0o.order_list.order_list_main.126.286e1802OXD0oC</field>
+        <field name="Price">0.017</field>
+      </fields>
+      <libsource lib="ClockIt" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Buy" value="https://www.aliexpress.com/item/1005003580268418.html?spm=a2g0o.order_list.order_list_main.126.286e1802OXD0oC"/>
+      <property name="Price" value="0.017"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4c957c3-11ca-42e8-81d6-efe57fb9d926</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>ClockIt:C_1206</footprint>
+      <fields>
+        <field name="Buy">https://www.aliexpress.com/item/1005003580268418.html?spm=a2g0o.order_list.order_list_main.126.286e1802OXD0oC</field>
+        <field name="Price">0.017</field>
+      </fields>
+      <libsource lib="ClockIt" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Buy" value="https://www.aliexpress.com/item/1005003580268418.html?spm=a2g0o.order_list.order_list_main.126.286e1802OXD0oC"/>
+      <property name="Price" value="0.017"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1063197-308a-49af-b4f0-7051851c591a</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5817</value>
+      <footprint>ClockIt:D_2010</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="Buy">https://www.aliexpress.com/item/1005001552094086.html?spm=a2g0o.productlist.main.1.2e94WwbYWwbY5g&amp;algo_pvid=c0be6ba8-0814-418b-8f57-5b462f90716d&amp;algo_exp_id=c0be6ba8-0814-418b-8f57-5b462f90716d-0&amp;pdp_npi=4%40dis%21EUR%210.32%210.32%21%21%210.33%21%21%40211b815c16974702438423181e37e4%2112000016564939110%21sea%21PL%212225465097%21&amp;curPageLogUid=UOM2CuyYhq8v</field>
+        <field name="Price">0.015</field>
+      </fields>
+      <libsource lib="ClockIt" part="1N5817" description="20V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Buy" value="https://www.aliexpress.com/item/1005001552094086.html?spm=a2g0o.productlist.main.1.2e94WwbYWwbY5g&amp;algo_pvid=c0be6ba8-0814-418b-8f57-5b462f90716d&amp;algo_exp_id=c0be6ba8-0814-418b-8f57-5b462f90716d-0&amp;pdp_npi=4%40dis%21EUR%210.32%210.32%21%21%210.33%21%21%40211b815c16974702438423181e37e4%2112000016564939110%21sea%21PL%212225465097%21&amp;curPageLogUid=UOM2CuyYhq8v"/>
+      <property name="Price" value="0.015"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="20V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>761c33a5-9d06-44dc-a8b6-252f1db6f672</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N5817</value>
+      <footprint>ClockIt:D_2010</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="Buy">https://www.aliexpress.com/item/1005001552094086.html?spm=a2g0o.productlist.main.1.2e94WwbYWwbY5g&amp;algo_pvid=c0be6ba8-0814-418b-8f57-5b462f90716d&amp;algo_exp_id=c0be6ba8-0814-418b-8f57-5b462f90716d-0&amp;pdp_npi=4%40dis%21EUR%210.32%210.32%21%21%210.33%21%21%40211b815c16974702438423181e37e4%2112000016564939110%21sea%21PL%212225465097%21&amp;curPageLogUid=UOM2CuyYhq8v</field>
+        <field name="Price">0.015</field>
+      </fields>
+      <libsource lib="ClockIt" part="1N5817" description="20V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Buy" value="https://www.aliexpress.com/item/1005001552094086.html?spm=a2g0o.productlist.main.1.2e94WwbYWwbY5g&amp;algo_pvid=c0be6ba8-0814-418b-8f57-5b462f90716d&amp;algo_exp_id=c0be6ba8-0814-418b-8f57-5b462f90716d-0&amp;pdp_npi=4%40dis%21EUR%210.32%210.32%21%21%210.33%21%21%40211b815c16974702438423181e37e4%2112000016564939110%21sea%21PL%212225465097%21&amp;curPageLogUid=UOM2CuyYhq8v"/>
+      <property name="Price" value="0.015"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="20V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af40bd49-df15-49f3-84d7-7fa217b21c98</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N5817</value>
+      <footprint>ClockIt:D_2010</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="Buy">https://www.aliexpress.com/item/1005001552094086.html?spm=a2g0o.productlist.main.1.2e94WwbYWwbY5g&amp;algo_pvid=c0be6ba8-0814-418b-8f57-5b462f90716d&amp;algo_exp_id=c0be6ba8-0814-418b-8f57-5b462f90716d-0&amp;pdp_npi=4%40dis%21EUR%210.32%210.32%21%21%210.33%21%21%40211b815c16974702438423181e37e4%2112000016564939110%21sea%21PL%212225465097%21&amp;curPageLogUid=UOM2CuyYhq8v</field>
+        <field name="Price">0.015</field>
+      </fields>
+      <libsource lib="ClockIt" part="1N5817" description="20V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Buy" value="https://www.aliexpress.com/item/1005001552094086.html?spm=a2g0o.productlist.main.1.2e94WwbYWwbY5g&amp;algo_pvid=c0be6ba8-0814-418b-8f57-5b462f90716d&amp;algo_exp_id=c0be6ba8-0814-418b-8f57-5b462f90716d-0&amp;pdp_npi=4%40dis%21EUR%210.32%210.32%21%21%210.33%21%21%40211b815c16974702438423181e37e4%2112000016564939110%21sea%21PL%212225465097%21&amp;curPageLogUid=UOM2CuyYhq8v"/>
+      <property name="Price" value="0.015"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="20V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef9dc63b-fc56-4ba8-bf0b-1e8acc990f87</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Pin 1x5</value>
+      <footprint>ClockIt:PIN 1x05</footprint>
+      <libsource lib="ClockIt" part="Conn_01x05_Socket_1" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0a41a69-59d9-48e4-85f4-602fd55aa263</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Pin 1x6</value>
+      <footprint>ClockIt:PIN 1x06</footprint>
+      <libsource lib="ClockIt" part="Conn_01x06_Socket" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f969eae-56b2-49c0-b806-d86204c95849</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>PowerPad</value>
+      <footprint>ClockIt:Power Pin</footprint>
+      <libsource lib="ClockIt" part="PowerPad" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>113a6884-07c3-487b-bb50-5c49f0d092e8</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Pin 1x6</value>
+      <footprint>ClockIt:PIN 1x06</footprint>
+      <fields>
+        <field name="Buy">N/A</field>
+        <field name="Price">0.000</field>
+      </fields>
+      <libsource lib="ClockIt" part="Conn_01x06_Socket" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Buy" value="N/A"/>
+      <property name="Price" value="0.000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5b6ede6-2226-4f30-9432-7b9ead9179b6</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>AVR-ISP</value>
+      <footprint>ClockIt:PIN 2x03</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="Buy">N/A</field>
+        <field name="Price">0.000</field>
+      </fields>
+      <libsource lib="ClockIt" part="AVR-ISP-6" description="Atmel 6-pin ISP connector"/>
+      <property name="Buy" value="N/A"/>
+      <property name="Price" value="0.000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Atmel 6-pin ISP connector"/>
+      <property name="ki_keywords" value="AVR ISP Connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bf89585-48c0-498d-9c7e-33720b568454</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>PowerPad</value>
+      <footprint>ClockIt:Power Pin</footprint>
+      <libsource lib="ClockIt" part="PowerPad" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9514722e-8e85-4746-8eaf-c59bcd7ac7bd</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>ClockIt:R_0805</footprint>
+      <fields>
+        <field name="Buy">https://www.aliexpress.com/item/1005003818444423.html?spm=a2g0o.productlist.main.1.6d56EDHrEDHr2P&amp;algo_pvid=357d64a0-120e-4340-a183-98d2095af111&amp;algo_exp_id=357d64a0-120e-4340-a183-98d2095af111-0&amp;pdp_npi=4%40dis%21EUR%210.55%210.54%21%21%210.57%21%21%40211b600816974714404044325ef6be%2112000027264600100%21sea%21PL%212225465097%21&amp;curPageLogUid=iEFhF20LK1RB</field>
+        <field name="Price">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Buy" value="https://www.aliexpress.com/item/1005003818444423.html?spm=a2g0o.productlist.main.1.6d56EDHrEDHr2P&amp;algo_pvid=357d64a0-120e-4340-a183-98d2095af111&amp;algo_exp_id=357d64a0-120e-4340-a183-98d2095af111-0&amp;pdp_npi=4%40dis%21EUR%210.55%210.54%21%21%210.57%21%21%40211b600816974714404044325ef6be%2112000027264600100%21sea%21PL%212225465097%21&amp;curPageLogUid=iEFhF20LK1RB"/>
+      <property name="Price" value="0.005"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6590987-9dbb-4879-b958-9cf7bb909720</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>ClockIt:R_0805</footprint>
+      <fields>
+        <field name="Buy">https://www.aliexpress.com/item/1005003818444423.html?spm=a2g0o.productlist.main.1.6d56EDHrEDHr2P&amp;algo_pvid=357d64a0-120e-4340-a183-98d2095af111&amp;algo_exp_id=357d64a0-120e-4340-a183-98d2095af111-0&amp;pdp_npi=4%40dis%21EUR%210.55%210.54%21%21%210.57%21%21%40211b600816974714404044325ef6be%2112000027264600100%21sea%21PL%212225465097%21&amp;curPageLogUid=iEFhF20LK1RB</field>
+        <field name="Price">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Buy" value="https://www.aliexpress.com/item/1005003818444423.html?spm=a2g0o.productlist.main.1.6d56EDHrEDHr2P&amp;algo_pvid=357d64a0-120e-4340-a183-98d2095af111&amp;algo_exp_id=357d64a0-120e-4340-a183-98d2095af111-0&amp;pdp_npi=4%40dis%21EUR%210.55%210.54%21%21%210.57%21%21%40211b600816974714404044325ef6be%2112000027264600100%21sea%21PL%212225465097%21&amp;curPageLogUid=iEFhF20LK1RB"/>
+      <property name="Price" value="0.005"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d36a96e1-8c70-48a0-9ba0-9997e7e7a17c</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>ClockIt:R_0805</footprint>
+      <fields>
+        <field name="Buy">https://www.aliexpress.com/item/1005003818444423.html?spm=a2g0o.productlist.main.1.6d56EDHrEDHr2P&amp;algo_pvid=357d64a0-120e-4340-a183-98d2095af111&amp;algo_exp_id=357d64a0-120e-4340-a183-98d2095af111-0&amp;pdp_npi=4%40dis%21EUR%210.55%210.54%21%21%210.57%21%21%40211b600816974714404044325ef6be%2112000027264600100%21sea%21PL%212225465097%21&amp;curPageLogUid=iEFhF20LK1RB</field>
+        <field name="Price">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Buy" value="https://www.aliexpress.com/item/1005003818444423.html?spm=a2g0o.productlist.main.1.6d56EDHrEDHr2P&amp;algo_pvid=357d64a0-120e-4340-a183-98d2095af111&amp;algo_exp_id=357d64a0-120e-4340-a183-98d2095af111-0&amp;pdp_npi=4%40dis%21EUR%210.55%210.54%21%21%210.57%21%21%40211b600816974714404044325ef6be%2112000027264600100%21sea%21PL%212225465097%21&amp;curPageLogUid=iEFhF20LK1RB"/>
+      <property name="Price" value="0.005"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7c055a9-4b6f-4738-80f4-5d919d34a37c</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>DS1307</value>
+      <footprint>ClockIt:SOIC-8</footprint>
+      <libsource lib="ClockIt" part="DS1307" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72ad8fb6-baf3-4328-9b57-3603bff47927</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>ATmega328PB-QFP</value>
+      <footprint>ClockIt:TQFP-32</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/40001906C.pdf</datasheet>
+      <libsource lib="ClockIt" part="ATmega328PB-QFP" description="20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"/>
+      <property name="ki_keywords" value="AVR 8bit Microcontroller MegaAVR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60856502-2f30-44ca-bf22-42d7fea4ddf3</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz</value>
+      <footprint>ClockIt:Crystal Vertical</footprint>
+      <fields>
+        <field name="Buy">N/A included in U1</field>
+        <field name="Price">0.000</field>
+      </fields>
+      <libsource lib="ClockIt" part="Crystal" description="Two pin crystal"/>
+      <property name="Buy" value="N/A included in U1"/>
+      <property name="Price" value="0.000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9295a280-a316-4c21-8212-948663883711</tstamps>
+    </comp>
+    <comp ref="Y2">
+      <value>32.768KHz</value>
+      <footprint>ClockIt:Crystal Horizontal</footprint>
+      <fields>
+        <field name="Buy">https://www.aliexpress.com/item/4000151983035.html?spm=a2g0o.productlist.main.1.3a572efe5nZ5fM&amp;algo_pvid=648e8b1b-2eb2-42ed-b02b-9daf57866274&amp;algo_exp_id=648e8b1b-2eb2-42ed-b02b-9daf57866274-0&amp;pdp_npi=4%40dis%21EUR%211.12%211.12%21%21%211.16%21%21%40211b612816979076879844587e1818%2110000000469217135%21sea%21PL%212225465097%21&amp;curPageLogUid=7T1Sv8MVyce2</field>
+        <field name="Price">0.056</field>
+      </fields>
+      <libsource lib="ClockIt" part="Crystal" description="Two pin crystal"/>
+      <property name="Buy" value="https://www.aliexpress.com/item/4000151983035.html?spm=a2g0o.productlist.main.1.3a572efe5nZ5fM&amp;algo_pvid=648e8b1b-2eb2-42ed-b02b-9daf57866274&amp;algo_exp_id=648e8b1b-2eb2-42ed-b02b-9daf57866274-0&amp;pdp_npi=4%40dis%21EUR%211.12%211.12%21%21%211.16%21%21%40211b612816979076879844587e1818%2110000000469217135%21sea%21PL%212225465097%21&amp;curPageLogUid=7T1Sv8MVyce2"/>
+      <property name="Price" value="0.056"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Movement5037.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc0cffe6-5561-48f3-be23-6e0cc1e02873</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ClockIt" part="1N5817">
+      <description>20V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88525/1n5817.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5817</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ClockIt" part="ATmega328PB-QFP">
+      <description>20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/40001906C.pdf</docs>
+      <footprints>
+        <fp>TQFP*7x7mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">ATmega328PB-QFP</field>
+        <field name="Footprint">Package_QFP:TQFP-32_7x7mm_P0.8mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/40001906C.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD3" type="bidirectional"/>
+        <pin num="2" name="PD4" type="bidirectional"/>
+        <pin num="3" name="PE0" type="bidirectional"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="PE1" type="bidirectional"/>
+        <pin num="7" name="XTAL1/PB6" type="bidirectional"/>
+        <pin num="8" name="XTAL2/PB7" type="bidirectional"/>
+        <pin num="9" name="PD5" type="bidirectional"/>
+        <pin num="10" name="PD6" type="bidirectional"/>
+        <pin num="11" name="PD7" type="bidirectional"/>
+        <pin num="12" name="PB0" type="bidirectional"/>
+        <pin num="13" name="PB1" type="bidirectional"/>
+        <pin num="14" name="PB2" type="bidirectional"/>
+        <pin num="15" name="PB3" type="bidirectional"/>
+        <pin num="16" name="PB4" type="bidirectional"/>
+        <pin num="17" name="PB5" type="bidirectional"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="PE2" type="bidirectional"/>
+        <pin num="20" name="AREF" type="passive"/>
+        <pin num="21" name="GND" type="passive"/>
+        <pin num="22" name="PE3" type="bidirectional"/>
+        <pin num="23" name="PC0" type="bidirectional"/>
+        <pin num="24" name="PC1" type="bidirectional"/>
+        <pin num="25" name="PC2" type="bidirectional"/>
+        <pin num="26" name="PC3" type="bidirectional"/>
+        <pin num="27" name="PC4" type="bidirectional"/>
+        <pin num="28" name="PC5" type="bidirectional"/>
+        <pin num="29" name="~{RESET}/PC6" type="bidirectional"/>
+        <pin num="30" name="PD0" type="bidirectional"/>
+        <pin num="31" name="PD1" type="bidirectional"/>
+        <pin num="32" name="PD2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="ClockIt" part="AVR-ISP-6">
+      <description>Atmel 6-pin ISP connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>IDC?Header*2x03*</fp>
+        <fp>Pin?Header*2x03*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">AVR-ISP</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="SCK" type="passive"/>
+        <pin num="4" name="MOSI" type="passive"/>
+        <pin num="5" name="~{RST}" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ClockIt" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ClockIt" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ClockIt" part="Conn_01x05_Socket_1">
+      <description>Generic connector, single row, 01x06, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">Conn_01x05_Socket_1</field>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ClockIt" part="Conn_01x06_Socket">
+      <description>Generic connector, single row, 01x06, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">1x6 Pin Strip Receptacle</field>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ClockIt" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ClockIt" part="DS1307">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">DS1307</field>
+        <field name="Footprint">PhoneNet:DIP-8_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X1" type="input"/>
+        <pin num="2" name="X2" type="input"/>
+        <pin num="3" name="VBATT" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="SDA" type="input"/>
+        <pin num="6" name="SLC" type="input"/>
+        <pin num="7" name="SQW" type="input"/>
+        <pin num="8" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ClockIt" part="PowerPad">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PowerPad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ClockIt">
+      <uri>C:/Users/nicola/git/ClockIt/board/ClockIt.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="input"/>
+      <node ref="U3" pin="18" pinfunction="AVCC" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/1HZ">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="SQW" pintype="input"/>
+    </net>
+    <net code="3" name="/BTNA">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/BTNB">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/BTNC">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/RST">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="~{RST}" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U3" pin="29" pinfunction="~{RESET}/PC6" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/SCL">
+      <node ref="U2" pin="6" pinfunction="SLC" pintype="input"/>
+      <node ref="U3" pin="28" pinfunction="PC5" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/SDA">
+      <node ref="U2" pin="5" pinfunction="SDA" pintype="input"/>
+      <node ref="U3" pin="27" pinfunction="PC4" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/TIMEC">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U3" pin="24" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/TIMED">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U3" pin="23" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/TM1637_CLK">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="PD3" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="PD4" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/TM1637_DIO">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="32" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/WS2812_D">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="PD5" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="input"/>
+      <node ref="U3" pin="21" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="15" name="Net-(BT1-+)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VBATT" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(J6-Pin_4)">
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(J6-Pin_5)">
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(J6-Pin_6)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(J7-MISO)">
+      <node ref="J7" pin="1" pinfunction="MISO" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="Net-(J7-MOSI)">
+      <node ref="J7" pin="4" pinfunction="MOSI" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="Net-(J7-SCK)">
+      <node ref="J7" pin="3" pinfunction="SCK" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="Net-(U2-X1)">
+      <node ref="U2" pin="1" pinfunction="X1" pintype="input"/>
+      <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(U2-X2)">
+      <node ref="U2" pin="2" pinfunction="X2" pintype="input"/>
+      <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(U3-AREF)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="20" pinfunction="AREF" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(U3-PD0)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="30" pinfunction="PD0" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Net-(U3-PD1)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="31" pinfunction="PD1" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="Net-(U3-XTAL1{slash}PB6)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="XTAL1/PB6" pintype="bidirectional"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(U3-XTAL2{slash}PB7)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="XTAL2/PB7" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="32" name="unconnected-(U3-PC2-Pad25)">
+      <node ref="U3" pin="25" pinfunction="PC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U3-PC3-Pad26)">
+      <node ref="U3" pin="26" pinfunction="PC3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U3-PD6-Pad10)">
+      <node ref="U3" pin="10" pinfunction="PD6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U3-PD7-Pad11)">
+      <node ref="U3" pin="11" pinfunction="PD7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U3-PE0-Pad3)">
+      <node ref="U3" pin="3" pinfunction="PE0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U3-PE1-Pad6)">
+      <node ref="U3" pin="6" pinfunction="PE1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U3-PE2-Pad19)">
+      <node ref="U3" pin="19" pinfunction="PE2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U3-PE3-Pad22)">
+      <node ref="U3" pin="22" pinfunction="PE3" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

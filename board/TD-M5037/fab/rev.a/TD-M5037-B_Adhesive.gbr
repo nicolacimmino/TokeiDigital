@@ -2,7 +2,8 @@
 %TF.CreationDate,2026-02-27T14:51:27+01:00*%
 %TF.ProjectId,TD-M5037,54442d4d-3530-4333-972e-6b696361645f,rev?*%
 %TF.SameCoordinates,Original*%
-%TF.FileFunction,Profile,NP*%
+%TF.FileFunction,Glue,Bot*%
+%TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
 G04 Created by KiCad (PCBNEW 9.0.6) date 2026-02-27 14:51:27*
