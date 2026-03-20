@@ -641,6 +641,22 @@
     [
       "bdccfd91-2131-490c-a91d-88ce438b2c4c",
       "Root"
+    ],
+    [
+      "21165c9e-e4c0-4340-bde5-6e568b296be8",
+      "Display"
+    ],
+    [
+      "51dbbb27-08dd-4268-ae44-9a0f21ab928b",
+      "Core"
+    ],
+    [
+      "33d4728a-504e-4923-a3ed-c41d7fb95d22",
+      "Power"
+    ],
+    [
+      "7db5534e-8fb7-470e-bdaa-d7766c6cd779",
+      "rtc"
     ]
   ],
   "text_variables": {}

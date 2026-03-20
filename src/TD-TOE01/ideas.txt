@@ -1,0 +1,245 @@
+A fusion of 1970s front-panel computers,
+1980s home computer / lab equipment UI,
+and 1990s scientific calculator interaction.
+
+70s → front panel memory editing
+80s → presets, patterns, service modes, banks
+90s → calculator-style key combos
+----
+80s devices loved numbered memories.
+
+Examples:
+
+synth patches
+
+calculator memories
+
+VCR timers
+
+HP calculators
+
+Commodore / Atari programs
+
+Add:
+
+P0–P9 preset slots
+
+Example:
+
+SEL + A → load preset
+SEL + B → save preset
+
+Memory map:
+
+0800–08FF preset 0
+0900–09FF preset 1
+
+This feels extremely 80s.
+----
+🖥 3. Self-test / diagnostic mode
+
+80s computers always had this.
+
+Examples:
+
+C64 test screen
+
+BIOS memory test
+
+synth test mode
+
+arcade service mode
+
+Add:
+
+Mode + Mode → test
+
+Test could:
+
+blink LEDs
+
+sweep beeper
+
+count display
+
+show memory
+
+Display:
+
+TEST
+888888
+000000
+FFFFF
+
+This screams 1980s hardware.
+----
+Make beep configurable like old hardware.
+
+Add:
+
+square wave
+
+tone sweep
+
+noise burst
+
+click
+
+alarm
+
+arpeggio
+
+You can even have:
+
+sound mode 0–7
+
+Very 80s.
+----
+
+----
+Use LEDs not just for show, but for real info.
+
+Ideas:
+
+RUN
+
+EDIT
+
+BEEP
+
+OVERFLOW
+
+IRQ
+
+TIMER ACTIVE
+
+Very KIM-1 vibe.
+-----
+countdown
+
+count up
+
+interval repeat
+
+one-shot
+
+PWM / pulse generator
+
+metronome
+
+------
+Timer chaining
+
+Timer 1 triggers Timer 2.
+
+Example:
+
+T1 done → start T2
+T2 done → beep
+
+Very geeky.
+
+------
+🔊 3. Beeper insanity (this fits your idea perfectly)
+
+Make beep fully programmable.
+
+Memory parameters:
+
+freq
+duty
+pattern
+repeat
+duration
+envelope
+
+Ideas:
+
+Morse mode
+
+melody mode
+
+alarm pattern table
+
+random beep
+
+exponential chirp
+
+sweep tone
+
+Example:
+
+0300 freq
+0301 length
+0302 pause
+0303 repeat
+
+------
+5. Calculator-like key combos
+
+Lean into this hard.
+
+Examples:
+
+SEL + 1 → T1
+SEL + 2 → T2
+SEL + 3 → T3
+Mode + GO → run all
+Mode + ST → stop all
+Mode + AD → config
+
+Long press combos:
+
+Hold GO → run continuously
+Hold ST → reset
+
+Double press:
+
+GO GO → restart
+
+--------
+Make it absurdly configurable.
+
+Configurable blink pattern
+LED on time
+LED off time
+repeat
+Configurable auto-scroll
+cycle speed
+cycle order
+enabled
+Configurable key repeat
+repeat delay
+repeat speed
+Configurable startup behavior
+restore state
+clear timers
+resume timers
+🧬 7. Easter eggs / geek features
+
+These make the device memorable.
+
+hidden demo mode
+
+random timer mode
+
+chaos mode (random beeps)
+
+self test
+
+LED chase
+
+memory dump animation
+
+fake CPU registers
+
+Example:
+
+Mode + Mode + Mode → demo
+
+or
+
+AD FFFF → secret
+
+Very KIM-1 style.
+--------

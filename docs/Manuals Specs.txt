@@ -1,0 +1,28 @@
+Original document in A4
+margin top: 4cm
+margin bottom: 4cm
+margin left: 3.5cm
+margin right: 3.5cm
+
+Header 1: Courier New 18 Bold
+Header 2: Courier New 16 Bold
+Normal text: Courier New 16
+Header/Footer: Courier 16
+
+Convert to PDF
+
+With "Booklet Creator 2" transform to booklet
+Output size A4
+Flip odd pages
+
+
+Print
+Greyscale
+Landscape
+Both Sides
+Flip on long edge
+
+Fold and staple
+
+Trim top/bottom 1cm (Use template T9001 to facilitate)
+Trim left 1cm
