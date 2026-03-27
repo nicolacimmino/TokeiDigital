@@ -12,7 +12,11 @@
     <generated />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d1cdfd-0672-4106-a8bb-9e869efe0a63" name="Changes" comment="Better script with config map" />
+    <list default="true" id="15d1cdfd-0672-4106-a8bb-9e869efe0a63" name="Changes" comment="Better script with config map">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceDrivers/eeprom/dcf77.eeprom.hex" beforeDir="false" afterPath="$PROJECT_DIR$/faceDrivers/eeprom/dcf77.eeprom.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceDrivers/eeprom/dcf77.eeprom.hex.bak" beforeDir="false" afterPath="$PROJECT_DIR$/faceDrivers/eeprom/dcf77.eeprom.hex.bak" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,9 +91,9 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "OET",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/nicola/Documents/git/TokeiDigital/src/movement/faceDrivers/eeprom",
+    "last_opened_file_path": "C:/Users/nicola/Documents/git/TokeiDigital/src/movement",
     "nodejs_package_manager_path": "npm",
     "org.rust.first.attach.projects": "true",
     "settings.editor.selected.configurable": "advanced.settings",
@@ -104,6 +108,13 @@
       <recent name="C:\Users\nicola\Documents\git\TokeiDigital\src\movement\faceDrivers\eeprom" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="15d1cdfd-0672-4106-a8bb-9e869efe0a63" name="Changes" comment="" />
@@ -114,6 +125,7 @@
       <workItem from="1770465841418" duration="992000" />
       <workItem from="1770742089555" duration="2564000" />
       <workItem from="1770990245775" duration="7400000" />
+      <workItem from="1774596524483" duration="3642000" />
     </task>
     <task id="LOCAL-00001" summary="Better makefile, autodiscovery .cpp and build in .build">
       <option name="closed" value="true" />
