@@ -402,6 +402,909 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TokeiDigital:LED1206"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED1206"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD LED 1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*1206*3216Metric*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED1206_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED1206_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TokeiDigital:LipoCharger"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LipoCharger_0_1"
+				(rectangle
+					(start 0 -1.27)
+					(end 7.62 -20.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LipoCharger_1_1"
+				(rectangle
+					(start -2.54 -6.35)
+					(end 1.27 -13.97)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 0 0 0 1)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "BAT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "BAT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -19.05 180)
+					(length 2.54)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TokeiDigital:SWITCH-DPDT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -2.54 8.89 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SWITCH-DPDT"
+				(at 6.35 -10.16 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field4" ""
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*SWITCH_DPDT_PTH_GPI-152-3013*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SWITCH-DPDT_1_0"
+				(polyline
+					(pts
+						(xy -2.54 7.62) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -6.35) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -10.16) (xy 2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -4.826) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.064) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy -2.286 2.794)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 7.62) (xy -2.54 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 6.35) (xy 2.54 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -6.35) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -10.16) (xy 2.54 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SWITCH-DPDT_1_1"
+				(circle
+					(center -2.54 2.54)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 -5.08)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 5.08)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -7.62)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_names
@@ -725,26 +1628,54 @@
 		)
 	)
 	(junction
-		(at 72.39 75.565)
+		(at 59.69 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2fe1ad5d-b3e2-4748-a3a8-5683ffb3311d")
+		(uuid "6c2a47f1-5335-46e9-929a-74019bdf0c6b")
 	)
 	(junction
-		(at 108.585 63.5)
+		(at 115.57 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81c7eebb-66d0-48d9-b247-db9eaa22155d")
 	)
 	(junction
-		(at 97.79 63.5)
+		(at 104.775 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea0f1816-30d0-46d0-a233-d6aa2728f0b4")
 	)
+	(no_connect
+		(at 81.28 60.96)
+		(uuid "087821e5-9977-4de3-b66a-1edff0a1ddc5")
+	)
+	(no_connect
+		(at 77.47 71.12)
+		(uuid "179de891-0ce1-4b22-b375-4b765b961d27")
+	)
+	(no_connect
+		(at 71.12 55.88)
+		(uuid "82a1ece8-e897-4b7c-beea-ae98226958d7")
+	)
+	(no_connect
+		(at 81.28 73.66)
+		(uuid "b19a39ba-34e9-4978-bece-5489bc61a1e4")
+	)
+	(no_connect
+		(at 81.28 53.34)
+		(uuid "bc05b34c-5394-47c6-a6ac-66845cb3e990")
+	)
+	(no_connect
+		(at 81.28 58.42)
+		(uuid "c1d2d543-af45-45c1-81e2-6b1f707c9314")
+	)
+	(no_connect
+		(at 74.93 71.12)
+		(uuid "d3e0a3cc-bbfc-4b13-bc77-8a61e5a87568")
+	)
 	(wire
 		(pts
-			(xy 108.585 61.595) (xy 108.585 63.5)
+			(xy 115.57 64.135) (xy 115.57 66.04)
 		)
 		(stroke
 			(width 0)
@@ -754,7 +1685,27 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 75.565) (xy 72.39 76.835)
+			(xy 55.88 80.01) (xy 59.69 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e206fa-1343-4ed8-9957-3f352ce47201")
+	)
+	(wire
+		(pts
+			(xy 156.21 55.88) (xy 156.21 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b170b9-2eea-4c1e-8b34-27ccaecd12ce")
+	)
+	(wire
+		(pts
+			(xy 59.69 80.01) (xy 59.69 81.28)
 		)
 		(stroke
 			(width 0)
@@ -764,7 +1715,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 63.5) (xy 97.79 65.405)
+			(xy 104.775 66.04) (xy 104.775 67.945)
 		)
 		(stroke
 			(width 0)
@@ -774,17 +1725,27 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 63.5) (xy 78.105 63.5)
+			(xy 156.21 78.74) (xy 156.21 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e7ff0c6-cb40-43ec-9adc-13c8c27f5679")
+		(uuid "4a82053b-08a7-4475-8fc4-3d47949a8c25")
 	)
 	(wire
 		(pts
-			(xy 85.725 63.5) (xy 97.79 63.5)
+			(xy 55.88 63.5) (xy 71.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec181c2-61d2-4b04-a436-67210af4688b")
+	)
+	(wire
+		(pts
+			(xy 92.71 66.04) (xy 104.775 66.04)
 		)
 		(stroke
 			(width 0)
@@ -794,7 +1755,37 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 70.485) (xy 97.79 73.025)
+			(xy 156.21 67.31) (xy 156.21 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9451d70-4cee-4a68-b87b-7929137dc4c5")
+	)
+	(wire
+		(pts
+			(xy 55.88 73.66) (xy 57.15 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec7921b-94d9-4848-b329-167db3c727d0")
+	)
+	(wire
+		(pts
+			(xy 55.88 68.58) (xy 57.15 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e116f304-7e93-4a1c-b29a-8a511b5ca0e4")
+	)
+	(wire
+		(pts
+			(xy 104.775 73.025) (xy 104.775 75.565)
 		)
 		(stroke
 			(width 0)
@@ -804,7 +1795,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 63.5) (xy 108.585 63.5)
+			(xy 104.775 66.04) (xy 115.57 66.04)
 		)
 		(stroke
 			(width 0)
@@ -814,84 +1805,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 65.405) (xy 72.39 63.5)
+			(xy 81.28 66.04) (xy 85.09 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3754ae2-fb95-4668-a6c1-544e50d124e6")
-	)
-	(symbol
-		(lib_id "ClockIt:PowerPad")
-		(at 72.39 75.565 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "113a6884-07c3-487b-bb50-5c49f0d092e8")
-		(property "Reference" "J6"
-			(at 74.295 72.263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PowerPad"
-			(at 74.93 73.533 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TokeiDigital:Power Pin"
-			(at 77.47 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5d6b6183-40ff-4e1f-bd70-2adb4189b5c6")
-		)
-		(instances
-			(project "TD-TOE01"
-				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/33d4728a-504e-4923-a3ed-c41d7fb95d22"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "ea1b8e58-f3f1-4ccc-9931-84bf549d88d6")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 72.39 75.565 270)
+		(at 59.69 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -900,7 +1824,7 @@
 		(fields_autoplaced yes)
 		(uuid "15595cc1-a05f-45a9-a56d-f04bfe3af176")
 		(property "Reference" "#FLG01"
-			(at 74.295 75.565 0)
+			(at 61.595 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -909,7 +1833,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 76.2 75.565 90)
+			(at 63.5 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,7 +1842,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 75.565 0)
+			(at 59.69 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,7 +1851,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 75.565 0)
+			(at 59.69 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -936,7 +1860,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 75.565 0)
+			(at 59.69 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -957,7 +1881,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 108.585 61.595 0)
+		(at 115.57 64.135 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -965,7 +1889,7 @@
 		(dnp no)
 		(uuid "49b0730b-c843-40ab-bd43-1fddc51d5228")
 		(property "Reference" "#PWR019"
-			(at 108.585 65.405 0)
+			(at 115.57 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -974,7 +1898,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 108.585 56.515 0)
+			(at 115.57 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,7 +1906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 108.585 61.595 0)
+			(at 115.57 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,7 +1915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 108.585 61.595 0)
+			(at 115.57 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,7 +1924,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 108.585 61.595 0)
+			(at 115.57 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,7 +1945,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 73.025 0)
+		(at 104.775 75.565 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1030,7 +1954,7 @@
 		(fields_autoplaced yes)
 		(uuid "50642c40-48e9-4750-a639-bcd50369f855")
 		(property "Reference" "#PWR018"
-			(at 97.79 79.375 0)
+			(at 104.775 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1039,7 +1963,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 78.105 0)
+			(at 104.775 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1048,7 +1972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 73.025 0)
+			(at 104.775 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1057,7 +1981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 73.025 0)
+			(at 104.775 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,7 +1990,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 73.025 0)
+			(at 104.775 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,34 +2010,17 @@
 		)
 	)
 	(symbol
-		(lib_id "ClockIt:1N5817")
-		(at 81.915 63.5 180)
+		(lib_id "power:GND")
+		(at 156.21 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5c01b4af-9592-42c9-9892-82fdc5e491b7")
-		(property "Reference" "D3"
-			(at 79.375 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N5817"
-			(at 86.995 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TokeiDigital:D_2010"
-			(at 81.915 59.055 0)
+		(fields_autoplaced yes)
+		(uuid "5b0a7343-56a4-4127-8d80-fb228392466f")
+		(property "Reference" "#PWR031"
+			(at 156.21 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1121,8 +2028,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 81.915 63.5 0)
+		(property "Value" "GND"
+			(at 156.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1131,7 +2056,139 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.915 63.5 0)
+			(at 156.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16d3489d-8b63-4570-9cfb-f12aa879d901")
+		)
+		(instances
+			(project "TD-TOE01"
+				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/33d4728a-504e-4923-a3ed-c41d7fb95d22"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ClockIt:PowerPad")
+		(at 57.15 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bfb2480-8c90-4fb8-8ca3-d23a45365c4d")
+		(property "Reference" "J6"
+			(at 62.23 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT-"
+			(at 61.722 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TokeiDigital:Power Pin"
+			(at 57.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe20ac1f-adb7-40bf-b648-e36d33917aa5")
+		)
+		(instances
+			(project "TD-TOE01"
+				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/33d4728a-504e-4923-a3ed-c41d7fb95d22"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ClockIt:1N5817")
+		(at 88.9 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c01b4af-9592-42c9-9892-82fdc5e491b7")
+		(property "Reference" "D3"
+			(at 86.36 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N5817"
+			(at 93.98 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TokeiDigital:D_2010"
+			(at 88.9 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1139,7 +2196,7 @@
 			)
 		)
 		(property "Buy" "https://www.aliexpress.com/item/1005001552094086.html?spm=a2g0o.productlist.main.1.2e94WwbYWwbY5g&algo_pvid=c0be6ba8-0814-418b-8f57-5b462f90716d&algo_exp_id=c0be6ba8-0814-418b-8f57-5b462f90716d-0&pdp_npi=4%40dis%21EUR%210.32%210.32%21%21%210.33%21%21%40211b815c16974702438423181e37e4%2112000016564939110%21sea%21PL%212225465097%21&curPageLogUid=UOM2CuyYhq8v"
-			(at 81.915 63.5 0)
+			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1148,7 +2205,7 @@
 			)
 		)
 		(property "Price" "0.015"
-			(at 81.915 63.5 0)
+			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1172,8 +2229,214 @@
 		)
 	)
 	(symbol
+		(lib_id "TokeiDigital:LED1206")
+		(at 156.21 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e2d6c6b-255d-42e6-94ab-3a7f0b437439")
+		(property "Reference" "D4"
+			(at 158.75 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED1206"
+			(at 161.29 76.5175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 151.13 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD LED 1206"
+			(at 156.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a6e7643-763c-4368-8e08-7dbb8e910d0e")
+		)
+		(pin "2"
+			(uuid "9b13f6a8-316d-4462-80dc-a8a32bf36e70")
+		)
+		(instances
+			(project "TD-TOE01"
+				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/33d4728a-504e-4923-a3ed-c41d7fb95d22"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 156.21 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b1be297-9635-4bd3-80de-0c046a35cb9b")
+		(property "Reference" "#PWR032"
+			(at 156.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "437512ab-f8aa-4b5d-9a3e-6b89644fd67b")
+		)
+		(instances
+			(project "TD-TOE01"
+				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/33d4728a-504e-4923-a3ed-c41d7fb95d22"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TokeiDigital:LipoCharger")
+		(at 45.72 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90a7fc40-4e3c-4ebe-ae7b-1170fcc03cce")
+		(property "Reference" "U12"
+			(at 48.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdc72a5b-729c-4384-8bfe-14fc680127bd")
+		)
+		(pin "3"
+			(uuid "035b4f15-13d8-4ea2-82ce-52c4fd47fdd7")
+		)
+		(pin "4"
+			(uuid "77328c6d-db65-4c69-abc1-ec7e4df21436")
+		)
+		(pin "2"
+			(uuid "0cda037f-14be-4cb0-aa7e-554a7642eb0a")
+		)
+		(instances
+			(project ""
+				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/33d4728a-504e-4923-a3ed-c41d7fb95d22"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ClockIt:PowerPad")
-		(at 72.39 65.405 180)
+		(at 57.15 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1182,16 +2445,16 @@
 		(fields_autoplaced yes)
 		(uuid "9514722e-8e85-4746-8eaf-c59bcd7ac7bd")
 		(property "Reference" "J5"
-			(at 74.295 68.707 0)
+			(at 62.23 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "PowerPad"
-			(at 74.93 69.977 0)
+		(property "Value" "BAT+"
+			(at 61.722 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,7 +2464,7 @@
 			)
 		)
 		(property "Footprint" "TokeiDigital:Power Pin"
-			(at 67.31 65.405 0)
+			(at 57.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,7 +2473,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 65.405 0)
+			(at 57.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +2482,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 65.405 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,17 +2502,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 72.39 76.835 0)
+		(lib_id "Device:R")
+		(at 156.21 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf745d26-86d1-434a-9942-de59d8dfc9b7")
-		(property "Reference" "#PWR017"
-			(at 72.39 83.185 0)
+		(uuid "c2b4ab15-89d9-4c66-8ccf-7b2876348580")
+		(property "Reference" "R8"
+			(at 160.655 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 158.75 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TokeiDigital:R_0805"
+			(at 154.432 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,26 +2537,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 72.39 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 76.835 0)
+		(property "Datasheet" "~"
+			(at 156.21 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1285,7 +2547,94 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 76.835 0)
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy" "https://www.aliexpress.com/item/1005003818444423.html?spm=a2g0o.productlist.main.1.6d56EDHrEDHr2P&algo_pvid=357d64a0-120e-4340-a183-98d2095af111&algo_exp_id=357d64a0-120e-4340-a183-98d2095af111-0&pdp_npi=4%40dis%21EUR%210.55%210.54%21%21%210.57%21%21%40211b600816974714404044325ef6be%2112000027264600100%21sea%21PL%212225465097%21&curPageLogUid=iEFhF20LK1RB"
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.005"
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e23d635b-d62a-44f3-8f07-8f54a8c836b7")
+		)
+		(pin "2"
+			(uuid "aeb93586-1d32-4f32-acdb-c34faa169ec8")
+		)
+		(instances
+			(project "TD-TOE01"
+				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/33d4728a-504e-4923-a3ed-c41d7fb95d22"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf745d26-86d1-434a-9942-de59d8dfc9b7")
+		(property "Reference" "#PWR017"
+			(at 59.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,7 +2655,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 108.585 63.5 270)
+		(at 115.57 66.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1315,7 +2664,7 @@
 		(fields_autoplaced yes)
 		(uuid "de7551e6-4201-423c-bab4-9398c08cbc45")
 		(property "Reference" "#FLG02"
-			(at 110.49 63.5 0)
+			(at 117.475 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,7 +2673,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 111.76 63.5 90)
+			(at 118.745 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1333,7 +2682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 108.585 63.5 0)
+			(at 115.57 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,7 +2691,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 108.585 63.5 0)
+			(at 115.57 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1351,7 +2700,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 108.585 63.5 0)
+			(at 115.57 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,7 +2721,7 @@
 	)
 	(symbol
 		(lib_id "ClockIt:C_Small")
-		(at 97.79 67.945 0)
+		(at 104.775 70.485 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1380,7 +2729,7 @@
 		(dnp no)
 		(uuid "f1063197-308a-49af-b4f0-7051851c591a")
 		(property "Reference" "C8"
-			(at 104.14 67.945 0)
+			(at 111.125 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,7 +2738,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 104.14 70.485 0)
+			(at 111.125 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1398,7 +2747,7 @@
 			)
 		)
 		(property "Footprint" "TokeiDigital:C_1206"
-			(at 97.79 67.945 0)
+			(at 104.775 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1407,7 +2756,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 67.945 0)
+			(at 104.775 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +2765,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 67.945 0)
+			(at 104.775 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,7 +2773,7 @@
 			)
 		)
 		(property "Buy" "https://www.aliexpress.com/item/1005003580268418.html?spm=a2g0o.order_list.order_list_main.126.286e1802OXD0oC"
-			(at 97.79 67.945 0)
+			(at 104.775 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,7 +2782,7 @@
 			)
 		)
 		(property "Price" "0.017"
-			(at 97.79 67.945 0)
+			(at 104.775 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1451,6 +2800,101 @@
 			(project "TD-TOE01"
 				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/33d4728a-504e-4923-a3ed-c41d7fb95d22"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TokeiDigital:SWITCH-DPDT")
+		(at 76.2 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f195c42f-766e-496b-b571-a2773b0d2603")
+		(property "Reference" "S1"
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "SWITCH-DPDT"
+			(at 76.2 48.26 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 46.99 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "f84c84b3-30c9-4a3b-abd2-fe4e7eb13830")
+		)
+		(pin "2"
+			(uuid "79e2547a-5524-4c73-b9f2-0f438ccbd9f1")
+		)
+		(pin "6"
+			(uuid "a4f36b4a-4af1-47b4-9e26-60c90889ca73")
+		)
+		(pin "5"
+			(uuid "6bf9cb9e-bbdd-48d3-a0be-5cfd9a85f092")
+		)
+		(pin "7"
+			(uuid "513c8db3-cecb-4a03-b934-9b465d2b905d")
+		)
+		(pin "1"
+			(uuid "491f6e06-9d3f-4f97-9cff-3472e3060d23")
+		)
+		(pin "3"
+			(uuid "8741956c-dc67-4d91-8d91-6819ed6185b4")
+		)
+		(pin "8"
+			(uuid "f53816b0-f02f-42a7-ad07-3428538c31cc")
+		)
+		(instances
+			(project ""
+				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/33d4728a-504e-4923-a3ed-c41d7fb95d22"
+					(reference "S1")
 					(unit 1)
 				)
 			)

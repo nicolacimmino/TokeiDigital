@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Synthetic Operation"
             }
+          },
+          {
+            "id": "92e748118d707225",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,8 +196,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "2795be55e0f77e0f",
+  "active": "92e748118d707225",
   "lastOpenFiles": [
+    "Drawings/Front Panel.excalidraw.crswap",
     "Features.md",
     "Ergonomics.md",
     "Keys and Leds.md",
@@ -195,7 +209,6 @@
     "Images",
     "Images/Ergonomics Sketch.png",
     "Operations Flows/Active Timer Selection.md",
-    "Drawings/Front Panel.excalidraw.crswap",
     "Drawings/Front Panel.excalidraw",
     "Drawings",
     "New folder",

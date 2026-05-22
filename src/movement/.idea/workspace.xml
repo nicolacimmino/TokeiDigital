@@ -12,10 +12,10 @@
     <generated />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d1cdfd-0672-4106-a8bb-9e869efe0a63" name="Changes" comment="Better script with config map">
+    <list default="true" id="15d1cdfd-0672-4106-a8bb-9e869efe0a63" name="Changes" comment="Final default color map">
+      <change beforePath="$PROJECT_DIR$/../TD-TOE01/docs/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TD-TOE01/docs/.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD-TOE01/docs/Drawings/Front Panel.excalidraw" beforeDir="false" afterPath="$PROJECT_DIR$/../TD-TOE01/docs/Drawings/Front Panel.excalidraw" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faceDrivers/eeprom/dcf77.eeprom.hex" beforeDir="false" afterPath="$PROJECT_DIR$/faceDrivers/eeprom/dcf77.eeprom.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faceDrivers/eeprom/dcf77.eeprom.hex.bak" beforeDir="false" afterPath="$PROJECT_DIR$/faceDrivers/eeprom/dcf77.eeprom.hex.bak" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,26 +80,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "OET",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/nicola/Documents/git/TokeiDigital/src/movement",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;OET&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nicola/Documents/git/TokeiDigital/src/movement&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nicola\Documents\git\TokeiDigital\src\movement\faceDrivers\eeprom" />
@@ -107,13 +107,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nicola\Documents\git\TokeiDigital\src\movement\faceDrivers\eeprom" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -125,7 +118,8 @@
       <workItem from="1770465841418" duration="992000" />
       <workItem from="1770742089555" duration="2564000" />
       <workItem from="1770990245775" duration="7400000" />
-      <workItem from="1774596524483" duration="3642000" />
+      <workItem from="1774596524483" duration="6419000" />
+      <workItem from="1775111950627" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="Better makefile, autodiscovery .cpp and build in .build">
       <option name="closed" value="true" />
@@ -167,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770998079935</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Final default color map">
+      <option name="closed" value="true" />
+      <created>1774601303900</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774601303900</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +192,7 @@
     <MESSAGE value="Face tweaks" />
     <MESSAGE value="Add editor for DCF77 registers" />
     <MESSAGE value="Better script with config map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Better script with config map" />
+    <MESSAGE value="Final default color map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final default color map" />
   </component>
 </project>

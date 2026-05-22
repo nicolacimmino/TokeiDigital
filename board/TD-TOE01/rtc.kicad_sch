@@ -5,7 +5,7 @@
 	(uuid "60ba616d-d930-4b2e-a208-528fac7da15b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "ClockIt:Battery_Cell"
+		(symbol "TokeiDigital:Battery_Cell"
 			(pin_numbers
 				(hide yes)
 			)
@@ -182,7 +182,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ClockIt:C_Small"
+		(symbol "TokeiDigital:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -211,7 +211,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "TokeiDigital:C Rect P5.00"
 				(at 0 0 0)
 				(effects
 					(font
@@ -322,7 +322,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ClockIt:Crystal"
+		(symbol "TokeiDigital:Crystal"
 			(pin_numbers
 				(hide yes)
 			)
@@ -495,7 +495,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ClockIt:DS1307"
+		(symbol "TokeiDigital:DS1307"
 			(pin_names
 				(offset 1.016)
 			)
@@ -709,8 +709,12 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -810,8 +814,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -831,8 +834,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -908,8 +915,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -929,24 +935,28 @@
 		)
 	)
 	(junction
-		(at 137.795 63.5)
+		(at 142.24 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "49b99acd-4eeb-434d-9cbc-866e3ffc37ec")
+		(uuid "e20a97ea-36f3-4a8f-8d6d-986422776057")
+	)
+	(no_connect
+		(at 135.89 66.04)
+		(uuid "563f1309-41e7-4069-b3a9-901813314894")
 	)
 	(wire
 		(pts
-			(xy 137.795 63.5) (xy 144.145 63.5)
+			(xy 142.24 63.5) (xy 144.78 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19d9e5b4-2c70-4a47-82a0-5ffbe6ef4c2b")
+		(uuid "45f06b48-6209-458d-88a8-472d96dce42b")
 	)
 	(wire
 		(pts
-			(xy 140.97 71.12) (xy 135.89 71.12)
+			(xy 139.7 71.12) (xy 135.89 71.12)
 		)
 		(stroke
 			(width 0)
@@ -966,27 +976,57 @@
 	)
 	(wire
 		(pts
-			(xy 151.765 63.5) (xy 151.765 67.31)
+			(xy 113.03 67.31) (xy 113.03 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2d07b95-b9a7-4a74-960b-f25651bc9556")
+		(uuid "5a9efc71-aa31-4c5a-bdd4-bf9ff28397e1")
 	)
 	(wire
 		(pts
-			(xy 111.125 63.5) (xy 113.03 63.5)
+			(xy 135.89 63.5) (xy 142.24 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b71c183f-a761-4c3e-bc4a-f4d742a9448c")
+		(uuid "6c98a63e-8977-4b72-89e5-23263d563fb1")
 	)
 	(wire
 		(pts
-			(xy 110.49 61.595) (xy 111.125 61.595)
+			(xy 142.24 59.69) (xy 142.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e04902-7a56-45c0-93e9-ee1698be3a0d")
+	)
+	(wire
+		(pts
+			(xy 152.4 63.5) (xy 152.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0128533-981c-483b-83ee-bca5142ca146")
+	)
+	(wire
+		(pts
+			(xy 149.86 63.5) (xy 152.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a81e8112-af54-4598-810e-073f53801cde")
+	)
+	(wire
+		(pts
+			(xy 110.49 63.5) (xy 113.03 63.5)
 		)
 		(stroke
 			(width 0)
@@ -996,53 +1036,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 66.04) (xy 102.87 66.04)
+			(xy 113.03 67.31) (xy 102.87 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bec73ecc-d0b6-41e0-b398-d6b97f22cfab")
-	)
-	(wire
-		(pts
-			(xy 135.89 63.5) (xy 137.795 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c46ae0e7-9285-4d15-a8fb-9d0df61cf7d0")
-	)
-	(wire
-		(pts
-			(xy 113.03 71.12) (xy 113.03 73.025)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c538d609-3527-4fa3-9578-3d046cde868a")
-	)
-	(wire
-		(pts
-			(xy 140.97 66.04) (xy 135.89 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d14e15bb-f044-4cc6-82b1-cb747068563e")
-	)
-	(wire
-		(pts
-			(xy 111.125 61.595) (xy 111.125 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1d2189-9d8f-498d-91ca-8eef41958557")
 	)
 	(wire
 		(pts
@@ -1056,17 +1056,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.795 63.5) (xy 137.795 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df99ecf3-fed5-4e3d-8100-077ae3cbdd98")
-	)
-	(wire
-		(pts
-			(xy 140.97 68.58) (xy 135.89 68.58)
+			(xy 139.7 68.58) (xy 135.89 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1076,7 +1066,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 66.04) (xy 102.87 61.595)
+			(xy 102.87 77.47) (xy 102.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea4aa822-fd45-4e62-8a40-3a985c40f461")
+	)
+	(wire
+		(pts
+			(xy 102.87 67.31) (xy 102.87 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1086,112 +1086,38 @@
 	)
 	(wire
 		(pts
-			(xy 149.225 63.5) (xy 151.765 63.5)
+			(xy 113.03 71.12) (xy 113.03 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edd6ed67-719d-406a-94ca-2632907b7989")
+		(uuid "f2fbbf15-2009-4aec-8e89-61c5fb8eb568")
 	)
-	(label "SDA"
-		(at 140.97 71.12 180)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 139.7 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "440153bb-9a2d-4b8a-bf04-dd283eac84ae")
+		(uuid "26ac845e-4c67-42c2-8860-221f1c96f8f8")
 	)
-	(label "SCL"
-		(at 140.97 68.58 180)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 139.7 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "457b5799-3d70-400d-9aca-d837c010016b")
-	)
-	(label "1HZ"
-		(at 140.97 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "88c2e5d9-8722-4a63-b710-9cbc3326f0f9")
+		(uuid "bf9b5266-4c01-49c0-933a-43f89aff6e30")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 151.765 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e0a02f9-ed7c-4b49-ad79-be6a456e930d")
-		(property "Reference" "#PWR023"
-			(at 151.765 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 151.765 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.765 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.765 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.765 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ac85b52c-e1d6-40c2-81fc-154422207a31")
-		)
-		(instances
-			(project "TD-TOE01"
-				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/7db5534e-8fb7-470e-bdaa-d7766c6cd779"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ClockIt:Battery_Cell")
+		(lib_id "TokeiDigital:Battery_Cell")
 		(at 102.87 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1235,12 +1161,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single-cell battery"
 			(at 102.87 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Buy" "https://www.aliexpress.com/item/1005004660807727.html?spm=a2g0o.productlist.main.3.5246HApeHApeWB&algo_pvid=0ba51ece-a9bb-4de8-be75-c1e5337e6a1c&algo_exp_id=0ba51ece-a9bb-4de8-be75-c1e5337e6a1c-1&pdp_npi=4%40dis%21EUR%211.70%211.7%21%21%211.76%21%21%40211b600216970418084195939eaba4%2112000030016612364%21sea%21PL%212225465097%21&curPageLogUid=ohHIYwya9AUz"
@@ -1277,16 +1204,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 137.795 62.23 0)
+		(lib_id "power:GND")
+		(at 113.03 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "200e5f78-377e-4a6e-80bc-f76ded333436")
-		(property "Reference" "#PWR022"
-			(at 137.795 66.04 0)
+		(fields_autoplaced yes)
+		(uuid "12b6a735-227f-484c-b75e-d1cae0dfc22e")
+		(property "Reference" "#PWR024"
+			(at 113.03 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1294,16 +1222,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 137.795 57.15 0)
+		(property "Value" "GND"
+			(at 113.03 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 137.795 62.23 0)
+			(at 113.03 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1312,7 +1241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.795 62.23 0)
+			(at 113.03 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,37 +1249,171 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 137.795 62.23 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "715c55fa-3158-4a51-be61-88e0cac637ae")
+			(uuid "a2d828a4-5c22-45fd-a313-b6b46e96dcc0")
 		)
 		(instances
 			(project "TD-TOE01"
 				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/7db5534e-8fb7-470e-bdaa-d7766c6cd779"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ClockIt:C_Small")
-		(at 146.685 63.5 270)
+		(lib_id "power:+5V")
+		(at 142.24 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b0d5836-14c4-4f30-9bbf-6a67512992d1")
+		(property "Reference" "#PWR025"
+			(at 142.24 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 142.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d952093d-7133-400a-b9cf-b6ea3bd183ed")
+		)
+		(instances
+			(project ""
+				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/7db5534e-8fb7-470e-bdaa-d7766c6cd779"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23ad9ec6-76f8-4b85-9610-34afbc52d4d6")
+		(property "Reference" "#PWR026"
+			(at 152.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15ddea43-5c03-41ad-b0d7-73e270667bfc")
+		)
+		(instances
+			(project "TD-TOE01"
+				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/7db5534e-8fb7-470e-bdaa-d7766c6cd779"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TokeiDigital:C_Small")
+		(at 147.32 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "47602d4e-c51a-49fd-a294-3b061d4156a4")
-		(property "Reference" "C9"
-			(at 152.4 61.595 90)
+		(property "Reference" "C10"
+			(at 153.035 61.595 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,7 +1422,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 152.4 59.055 90)
+			(at 153.035 59.055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,8 +1430,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TokeiDigital:C_0805"
-			(at 146.685 63.5 0)
+		(property "Footprint" "TokeiDigital:C Rect P5.00"
+			(at 147.32 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1377,7 +1440,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.685 63.5 0)
+			(at 147.32 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,16 +1448,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 146.685 63.5 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 147.32 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Buy" "https://www.aliexpress.com/item/1005003580268418.html?spm=a2g0o.order_list.order_list_main.126.286e1802OXD0oC"
-			(at 146.685 63.5 0)
+			(at 147.32 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1467,7 @@
 			)
 		)
 		(property "Price" "0.017"
-			(at 146.685 63.5 0)
+			(at 147.32 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1420,14 +1484,14 @@
 		(instances
 			(project "TD-TOE01"
 				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/7db5534e-8fb7-470e-bdaa-d7766c6cd779"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ClockIt:DS1307")
+		(lib_id "TokeiDigital:DS1307")
 		(at 124.46 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1436,8 +1500,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "581ec967-c507-4df8-90b4-061ee36f8ab7")
-		(property "Reference" "U9"
-			(at 124.46 56.515 0)
+		(property "Reference" "U11"
+			(at 124.46 55.88 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1445,7 +1509,7 @@
 			)
 		)
 		(property "Value" "DS1307"
-			(at 124.46 59.055 0)
+			(at 124.46 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1476,6 +1540,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1505,15 +1570,82 @@
 		(instances
 			(project "TD-TOE01"
 				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/7db5534e-8fb7-470e-bdaa-d7766c6cd779"
-					(reference "U9")
+					(reference "U11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ClockIt:Crystal")
-		(at 106.68 61.595 0)
+		(lib_id "power:GND")
+		(at 102.87 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6706daec-5f9d-4747-9c3b-5ffd246bf6f6")
+		(property "Reference" "#PWR023"
+			(at 102.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24fa5f35-538e-4db2-abb7-0837f5f66b87")
+		)
+		(instances
+			(project ""
+				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/7db5534e-8fb7-470e-bdaa-d7766c6cd779"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TokeiDigital:Crystal")
+		(at 106.68 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1522,7 +1654,7 @@
 		(dnp no)
 		(uuid "c401e2af-7b94-4284-a7ae-5ddf1feacaf0")
 		(property "Reference" "Y2"
-			(at 106.68 57.785 0)
+			(at 106.68 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +1662,7 @@
 			)
 		)
 		(property "Value" "32.768KHz"
-			(at 107.95 55.88 0)
+			(at 107.95 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +1670,7 @@
 			)
 		)
 		(property "Footprint" "TokeiDigital:Crystal Horizontal"
-			(at 106.68 61.595 0)
+			(at 106.68 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1547,7 +1679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 61.595 0)
+			(at 106.68 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,16 +1687,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 106.68 61.595 0)
+		(property "Description" "Two pin crystal"
+			(at 106.68 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Buy" "https://www.aliexpress.com/item/4000151983035.html?spm=a2g0o.productlist.main.1.3a572efe5nZ5fM&algo_pvid=648e8b1b-2eb2-42ed-b02b-9daf57866274&algo_exp_id=648e8b1b-2eb2-42ed-b02b-9daf57866274-0&pdp_npi=4%40dis%21EUR%211.12%211.12%21%21%211.16%21%21%40211b612816979076879844587e1818%2110000000469217135%21sea%21PL%212225465097%21&curPageLogUid=7T1Sv8MVyce2"
-			(at 106.68 61.595 0)
+			(at 106.68 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +1706,7 @@
 			)
 		)
 		(property "Price" "0.056"
-			(at 106.68 61.595 0)
+			(at 106.68 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,138 +1724,6 @@
 			(project "TD-TOE01"
 				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/7db5534e-8fb7-470e-bdaa-d7766c6cd779"
 					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 73.025 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c582f419-7a65-472f-921b-570344395acf")
-		(property "Reference" "#PWR021"
-			(at 113.03 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "276f58dd-bf4f-4c1a-b8f4-419cca92b612")
-		)
-		(instances
-			(project "TD-TOE01"
-				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/7db5534e-8fb7-470e-bdaa-d7766c6cd779"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 102.87 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9b011ed-07c8-4fc7-872e-5f1cdaaeaa78")
-		(property "Reference" "#PWR020"
-			(at 102.87 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 102.87 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 102.87 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "de119117-bc59-4500-8bf0-60995f4f4046")
-		)
-		(instances
-			(project "TD-TOE01"
-				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/7db5534e-8fb7-470e-bdaa-d7766c6cd779"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)

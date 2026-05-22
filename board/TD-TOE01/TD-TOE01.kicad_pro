@@ -651,12 +651,16 @@
       "Core"
     ],
     [
-      "33d4728a-504e-4923-a3ed-c41d7fb95d22",
-      "Power"
+      "7db5534e-8fb7-470e-bdaa-d7766c6cd779",
+      "RTC"
     ],
     [
-      "7db5534e-8fb7-470e-bdaa-d7766c6cd779",
-      "rtc"
+      "efa9eef7-40b0-4872-add5-a13e7f7e2c1f",
+      "Audio"
+    ],
+    [
+      "38f5e290-6e4b-4543-9614-03e81f2a48df",
+      "Keyboard"
     ]
   ],
   "text_variables": {}
