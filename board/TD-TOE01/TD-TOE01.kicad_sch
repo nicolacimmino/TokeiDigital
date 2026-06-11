@@ -1086,7 +1086,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TokeiDigital:SWITCH-DPDT"
+		(symbol "TokeiDigital:SWITCH-DPDT_NO_GND"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1168,7 +1168,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SWITCH-DPDT_1_0"
+			(symbol "SWITCH-DPDT_NO_GND_1_0"
 				(polyline
 					(pts
 						(xy -2.54 7.62) (xy -2.54 3.81)
@@ -1338,7 +1338,7 @@
 					)
 				)
 			)
-			(symbol "SWITCH-DPDT_1_1"
+			(symbol "SWITCH-DPDT_NO_GND_1_1"
 				(circle
 					(center -2.54 2.54)
 					(radius 0.3556)
@@ -1426,53 +1426,17 @@
 				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 2.54)
-					(name "6"
+					(name "5"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "6"
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -1.27 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 1.27 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1516,14 +1480,14 @@
 				(pin passive line
 					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "7"
+					(name "4"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "7"
+					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1534,14 +1498,14 @@
 				(pin passive line
 					(at 5.08 -7.62 180)
 					(length 2.54)
-					(name "5"
+					(name "6"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "5"
+					(number "6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2196,7 +2160,7 @@
 		)
 		(uuid "fe8aacad-38d2-4086-874c-c167c54bb5e4")
 	)
-	(label "BTN_SEL"
+	(label "BTN_FN"
 		(at 172.72 57.15 0)
 		(effects
 			(font
@@ -2336,7 +2300,7 @@
 		)
 		(uuid "545c3554-a552-4966-b17c-b1b4b5aa7ed7")
 	)
-	(label "BTN_SEL"
+	(label "BTN_FN"
 		(at 95.25 25.4 180)
 		(effects
 			(font
@@ -2849,7 +2813,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "TokeiDigital:D_2010"
 			(at 92.71 116.205 0)
 			(effects
 				(font
@@ -3201,7 +3165,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TokeiDigital:USBC Lipo Charger Module"
 			(at 48.26 115.57 0)
 			(effects
 				(font
@@ -3564,7 +3528,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TokeiDigital:C Rect P5.00"
+		(property "Footprint" "TokeiDigital:C_1206"
 			(at 107.6452 130.81 0)
 			(effects
 				(font
@@ -3625,7 +3589,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TokeiDigital:SWITCH-DPDT")
+		(lib_id "TokeiDigital:SWITCH-DPDT_NO_GND")
 		(at 78.74 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3650,7 +3614,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TokeiDigital:SW_DPDT_SMD_MINI"
 			(at 78.74 101.6 0)
 			(effects
 				(font
@@ -3686,9 +3650,6 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
-			(uuid "f84c84b3-30c9-4a3b-abd2-fe4e7eb13830")
-		)
 		(pin "2"
 			(uuid "79e2547a-5524-4c73-b9f2-0f438ccbd9f1")
 		)
@@ -3698,7 +3659,7 @@
 		(pin "5"
 			(uuid "6bf9cb9e-bbdd-48d3-a0be-5cfd9a85f092")
 		)
-		(pin "7"
+		(pin "4"
 			(uuid "513c8db3-cecb-4a03-b934-9b465d2b905d")
 		)
 		(pin "1"
@@ -3706,9 +3667,6 @@
 		)
 		(pin "3"
 			(uuid "8741956c-dc67-4d91-8d91-6819ed6185b4")
-		)
-		(pin "8"
-			(uuid "f53816b0-f02f-42a7-ad07-3428538c31cc")
 		)
 		(instances
 			(project "TD-TOE01"
@@ -3925,7 +3883,7 @@
 				(justify left)
 			)
 		)
-		(pin "BTN_SEL" output
+		(pin "BTN_FN" output
 			(at 185.42 57.15 180)
 			(uuid "701d5873-abe1-49f6-9f51-a41e567a07f8")
 			(effects
@@ -4137,7 +4095,7 @@
 				(justify right)
 			)
 		)
-		(pin "BTN_SEL" input
+		(pin "BTN_FN" input
 			(at 83.82 25.4 0)
 			(uuid "0d1fe7db-a728-493f-b7b0-acbe6cd5ddf5")
 			(effects

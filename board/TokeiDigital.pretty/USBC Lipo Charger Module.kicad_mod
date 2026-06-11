@@ -1,0 +1,154 @@
+(footprint "USBC Lipo Charger Module"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "12f2347e-68e8-40e9-8f73-66419bbcac65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "USBC Lipo Charger Module"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e5e26edb-d332-418f-9e39-5884b8ed22cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4952ca46-55be-4bdb-8e36-ac3f58b41f72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14af3b04-c95f-4321-9227-27f9269a9929")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 0)
+		(end 17.2 27.9)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cfab0589-f249-4fd4-8fd7-044a679bb410")
+	)
+	(fp_rect
+		(start 2.794 -2.032)
+		(end 14.224 7.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "27f49313-396b-4375-bf2b-4c42616cd139")
+	)
+	(fp_text user "B-"
+		(at 3.048 24.892 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0de5758c-8c8c-443f-9b29-25ba5b0cff03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "B+"
+		(at 12.7 24.892 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0e8d8751-0a81-4368-a19e-6f7a7ab4aa1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b06f2965-0624-4bf2-9ca2-f6729b35c9e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd circle
+		(at 1.27 1.27)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "62c9afee-a737-411e-9269-daf166629055")
+	)
+	(pad "" smd circle
+		(at 16.002 1.27)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fcbecda3-3b49-4d49-9b05-0436ae1c8667")
+	)
+	(pad "1" smd rect
+		(at 16.002 26.416)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "db64a8fe-2e1d-49a0-bb4f-b224b8180f77")
+	)
+	(pad "2" smd rect
+		(at 13.462 26.416)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84b48b0e-fda1-45b8-88fc-c936b705d87d")
+	)
+	(pad "3" smd rect
+		(at 3.81 26.416)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d065f12d-9994-4d04-9433-3700fb3f0ba4")
+	)
+	(pad "4" smd rect
+		(at 1.27 26.416)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5691aba7-27a9-4a72-b2da-ab49414b4729")
+	)
+	(embedded_fonts no)
+)

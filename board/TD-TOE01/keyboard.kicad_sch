@@ -1225,7 +1225,7 @@
 		)
 		(uuid "c88a2cf0-d676-42a5-a546-94aef8d91559")
 	)
-	(hierarchical_label "BTN_SEL"
+	(hierarchical_label "BTN_FN"
 		(shape output)
 		(at 33.02 26.67 180)
 		(effects

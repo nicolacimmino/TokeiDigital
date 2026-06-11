@@ -3048,7 +3048,7 @@
 		)
 		(uuid "d8272588-1c51-4326-998b-bd52b963cf1e")
 	)
-	(hierarchical_label "BTN_SEL"
+	(hierarchical_label "BTN_FN"
 		(shape input)
 		(at 151.13 63.5 0)
 		(effects
@@ -3254,7 +3254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TokeiDigital:C Rect P5.00"
+		(property "Footprint" "TokeiDigital:C_1206"
 			(at 128.27 135.89 0)
 			(effects
 				(font
@@ -3477,7 +3477,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TokeiDigital:C Rect P5.00"
+		(property "Footprint" "TokeiDigital:C_1206"
 			(at 133.35 48.26 0)
 			(effects
 				(font
@@ -3724,7 +3724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TokeiDigital:C Rect P5.00"
+		(property "Footprint" "TokeiDigital:C_1206"
 			(at 101.6 73.66 0)
 			(effects
 				(font
@@ -3811,7 +3811,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "TokeiDigital:D_2010"
 			(at 78.105 80.01 0)
 			(effects
 				(font
@@ -3998,7 +3998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TokeiDigital:C Rect P5.00"
+		(property "Footprint" "TokeiDigital:C_1206"
 			(at 93.98 73.66 0)
 			(effects
 				(font
@@ -4085,7 +4085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TokeiDigital:C Rect P5.00"
+		(property "Footprint" "TokeiDigital:C_1206"
 			(at 107.95 62.23 0)
 			(effects
 				(font
@@ -4948,7 +4948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TokeiDigital:C Rect P5.00"
+		(property "Footprint" "TokeiDigital:C_1206"
 			(at 118.11 135.89 0)
 			(effects
 				(font
@@ -5036,7 +5036,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "TokeiDigital:D_2010"
 			(at 182.245 53.34 0)
 			(effects
 				(font

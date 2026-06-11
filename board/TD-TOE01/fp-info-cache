@@ -1,4 +1,4 @@
-26802302097916682
+26805891846961840
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104881,6 +104881,13 @@ SOIC SO
 8
 8
 TokeiDigital
+SW_DPDT_SMD_MINI
+Sub-miniature slide switch, vertical, SMT J bend https://dznh3ojzb2azq.cloudfront.net/products/Slide/JS/documents/datasheet.pdf
+switch DPDT SMT
+0
+6
+6
+TokeiDigital
 TQFP-32
 32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
 QFP 0.8
@@ -104894,6 +104901,13 @@ Middle Stroke Tactile Switch
 0
 4
 2
+TokeiDigital
+USBC Lipo Charger Module
+
+
+0
+6
+4
 TokeiDigital
 WS2812-5MM
 

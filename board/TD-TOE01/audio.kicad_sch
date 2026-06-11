@@ -2405,7 +2405,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TokeiDigital:C Rect P5.00"
+		(property "Footprint" "TokeiDigital:C_1206"
 			(at 127 66.04 0)
 			(effects
 				(font
@@ -2492,7 +2492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TokeiDigital:C Rect P5.00"
+		(property "Footprint" "TokeiDigital:C_1206"
 			(at 114.3 66.04 0)
 			(effects
 				(font
@@ -2578,7 +2578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TokeiDigital:R-Axial"
+		(property "Footprint" "TokeiDigital:R_0805"
 			(at 107.95 62.23 0)
 			(effects
 				(font
@@ -2826,7 +2826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TokeiDigital:R-Axial"
+		(property "Footprint" "TokeiDigital:R_0805"
 			(at 121.92 62.23 0)
 			(effects
 				(font
@@ -2911,7 +2911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TokeiDigital:C Rect P5.00"
+		(property "Footprint" "TokeiDigital:C_1206"
 			(at 180.34 104.4448 0)
 			(effects
 				(font
@@ -3182,7 +3182,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TokeiDigital:C Rect P5.00"
+		(property "Footprint" "TokeiDigital:C_1206"
 			(at 101.6 96.52 0)
 			(effects
 				(font
@@ -3316,10 +3316,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ce78b268-dad0-449c-9d8e-88b5e1cdb6a6")
 		(property "Reference" "R9"
-			(at 163.83 99.06 90)
+			(at 164.084 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,14 +3326,14 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 163.83 101.6 90)
+			(at 163.576 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TokeiDigital:R_0805"
 			(at 163.83 107.188 90)
 			(effects
 				(font
@@ -3403,7 +3402,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TokeiDigital:C Rect P5.00"
+		(property "Footprint" "TokeiDigital:C_1206"
 			(at 183.1848 91.44 0)
 			(effects
 				(font
@@ -3491,7 +3490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TokeiDigital:Power Pin"
 			(at 215.9 115.57 0)
 			(effects
 				(font
@@ -3558,7 +3557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TokeiDigital:Power Pin"
 			(at 215.9 110.49 0)
 			(effects
 				(font

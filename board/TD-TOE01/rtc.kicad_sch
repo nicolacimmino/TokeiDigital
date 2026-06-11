@@ -1430,7 +1430,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TokeiDigital:C Rect P5.00"
+		(property "Footprint" "TokeiDigital:C_1206"
 			(at 147.32 63.5 0)
 			(effects
 				(font

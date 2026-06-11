@@ -13,8 +13,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15d1cdfd-0672-4106-a8bb-9e869efe0a63" name="Changes" comment="Final default color map">
-      <change beforePath="$PROJECT_DIR$/../TD-TOE01/docs/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TD-TOE01/docs/.obsidian/workspace.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TD-TOE01/docs/Drawings/Front Panel.excalidraw" beforeDir="false" afterPath="$PROJECT_DIR$/../TD-TOE01/docs/Drawings/Front Panel.excalidraw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../board/TD-TOE01/TD-TOE01.kicad_pcb" beforeDir="false" afterPath="$PROJECT_DIR$/../../board/TD-TOE01/TD-TOE01.kicad_pcb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../board/TD-TOE01/TD-TOE01.kicad_prl" beforeDir="false" afterPath="$PROJECT_DIR$/../../board/TD-TOE01/TD-TOE01.kicad_prl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../board/TD-TOE01/TD-TOE01.kicad_sch" beforeDir="false" afterPath="$PROJECT_DIR$/../../board/TD-TOE01/TD-TOE01.kicad_sch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../board/TD-TOE01/audio.kicad_sch" beforeDir="false" afterPath="$PROJECT_DIR$/../../board/TD-TOE01/audio.kicad_sch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../board/TD-TOE01/core.kicad_sch" beforeDir="false" afterPath="$PROJECT_DIR$/../../board/TD-TOE01/core.kicad_sch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../board/TD-TOE01/display.kicad_sch" beforeDir="false" afterPath="$PROJECT_DIR$/../../board/TD-TOE01/display.kicad_sch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../board/TD-TOE01/fp-info-cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../board/TD-TOE01/fp-info-cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../board/TD-TOE01/keyboard.kicad_sch" beforeDir="false" afterPath="$PROJECT_DIR$/../../board/TD-TOE01/keyboard.kicad_sch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../board/TD-TOE01/rtc.kicad_sch" beforeDir="false" afterPath="$PROJECT_DIR$/../../board/TD-TOE01/rtc.kicad_sch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../board/TokeiDigital.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../board/TokeiDigital.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../board/TokeiDigital.kicad_sym" beforeDir="false" afterPath="$PROJECT_DIR$/../../board/TokeiDigital.kicad_sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../board/TokeiDigital.pretty/Tactile SW SMD.kicad_mod" beforeDir="false" afterPath="$PROJECT_DIR$/../../board/TokeiDigital.pretty/Tactile SW SMD.kicad_mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,6 +130,7 @@
       <workItem from="1770990245775" duration="7400000" />
       <workItem from="1774596524483" duration="6419000" />
       <workItem from="1775111950627" duration="31000" />
+      <workItem from="1780128369574" duration="2778000" />
     </task>
     <task id="LOCAL-00001" summary="Better makefile, autodiscovery .cpp and build in .build">
       <option name="closed" value="true" />
