@@ -1,4 +1,4 @@
-26805891846961840
+26811256444113401
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104748,6 +104748,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 TokeiDigital
+AMPHENOL_12402012E212A
+
+
+0
+16
+11
+TokeiDigital
 C Disc P2.50
 C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
 C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor
@@ -104793,6 +104800,13 @@ TokeiDigital
 Crystal Vertical
 Crystal THT HC-49/U http://5hertz.com/pdfs/04404_D.pdf
 THT crystalHC-49/U
+0
+2
+2
+TokeiDigital
+Crystal_SMD_HC49-SD_HandSoldering
+HC-49-SD, Crystal, 11.4x4.7mm package, SMD, hand-soldering, generated with kicad-footprint-generator make_crystal.py, http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf
+
 0
 2
 2
@@ -104887,6 +104901,13 @@ switch DPDT SMT
 0
 6
 6
+TokeiDigital
+StarcapSuperCap-HType
+
+
+0
+2
+2
 TokeiDigital
 TQFP-32
 32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)

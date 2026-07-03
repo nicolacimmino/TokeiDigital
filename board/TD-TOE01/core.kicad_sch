@@ -355,156 +355,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TokeiDigital:1N5817"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N5817"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N5817_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N5817_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TokeiDigital:ATmega328PB-QFP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1405,6 +1255,175 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TokeiDigital:BAT54"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAT54"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "30V 200mA Schottky diode, SOD-323F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323F*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAT54_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT54_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 3.81 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TokeiDigital:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -2171,10 +2190,6 @@
 		(at 143.51 58.42)
 		(uuid "730ecdbb-7e45-4a34-aab9-96b747763196")
 	)
-	(no_connect
-		(at 111.76 111.76)
-		(uuid "74a60040-ff79-429d-91cb-40d3b9e7d06b")
-	)
 	(wire
 		(pts
 			(xy 143.51 68.58) (xy 168.91 68.58)
@@ -2284,6 +2299,16 @@
 			(type default)
 		)
 		(uuid "2f9ebda6-c584-480e-94a0-1af2e50679e2")
+	)
+	(wire
+		(pts
+			(xy 104.14 111.76) (xy 113.03 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2feee6c0-75b7-48b3-8898-bfd066b4a2d0")
 	)
 	(wire
 		(pts
@@ -2777,16 +2802,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 111.76) (xy 113.03 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e742d578-4317-4f5a-b1ef-22916d29db74")
-	)
-	(wire
-		(pts
 			(xy 128.27 140.97) (xy 128.27 138.43)
 		)
 		(stroke
@@ -3003,6 +3018,17 @@
 			(justify left)
 		)
 		(uuid "b256fa47-1b96-4a29-bc1f-0a5b0ee0b1e6")
+	)
+	(hierarchical_label "RTCINT"
+		(shape input)
+		(at 104.14 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2a4b7e5-9768-4900-922b-73b3524c10ed")
 	)
 	(hierarchical_label "BTN_ROW0"
 		(shape output)
@@ -3377,6 +3403,79 @@
 			(project "TD-TOE01"
 				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/51dbbb27-08dd-4268-ae44-9a0f21ab928b"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TokeiDigital:BAT54")
+		(at 177.8 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c5df705-3327-45a4-9a7a-01fd87458448")
+		(property "Reference" "D67"
+			(at 180.34 51.7524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54"
+			(at 180.34 54.2924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+			(at 173.355 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V 200mA Schottky diode, SOD-323F"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dbaa751-362b-4cc5-91a4-50342d868ef8")
+		)
+		(pin "2"
+			(uuid "125d8b0e-b56f-4fcd-a672-637470df7265")
+		)
+		(pin "3"
+			(uuid "419adda2-06d6-4f62-bf98-ef921e39f31a")
+		)
+		(instances
+			(project "TD-TOE01"
+				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/51dbbb27-08dd-4268-ae44-9a0f21ab928b"
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -3785,93 +3884,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TokeiDigital:1N5817")
-		(at 82.55 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "761c33a5-9d06-44dc-a8b6-252f1db6f672")
-		(property "Reference" "D67"
-			(at 86.36 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N5817"
-			(at 80.01 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TokeiDigital:D_2010"
-			(at 78.105 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 82.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 82.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy" "https://www.aliexpress.com/item/1005001552094086.html?spm=a2g0o.productlist.main.1.2e94WwbYWwbY5g&algo_pvid=c0be6ba8-0814-418b-8f57-5b462f90716d&algo_exp_id=c0be6ba8-0814-418b-8f57-5b462f90716d-0&pdp_npi=4%40dis%21EUR%210.32%210.32%21%21%210.33%21%21%40211b815c16974702438423181e37e4%2112000016564939110%21sea%21PL%212225465097%21&curPageLogUid=UOM2CuyYhq8v"
-			(at 82.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.015"
-			(at 82.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f553c0bd-6986-4115-b04f-2f2711004f7e")
-		)
-		(pin "2"
-			(uuid "2c21f8c4-f583-4606-9aa2-90c6972662d1")
-		)
-		(instances
-			(project "TD-TOE01"
-				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/51dbbb27-08dd-4268-ae44-9a0f21ab928b"
-					(reference "D67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TokeiDigital:AVR-ISP-6")
 		(at 179.07 71.12 0)
 		(mirror y)
@@ -4146,6 +4158,79 @@
 		)
 	)
 	(symbol
+		(lib_id "TokeiDigital:BAT54")
+		(at 82.55 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91b38791-e467-4354-966f-60d77eba0ccb")
+		(property "Reference" "D1"
+			(at 85.09 78.4224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54"
+			(at 85.09 80.9624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+			(at 78.105 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V 200mA Schottky diode, SOD-323F"
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54e17d5c-506c-4b18-91a5-d38b860ad741")
+		)
+		(pin "2"
+			(uuid "f8b8cae0-b309-43dc-ac74-238441240b58")
+		)
+		(pin "3"
+			(uuid "6d110ea2-795a-46a9-86aa-72b77109a641")
+		)
+		(instances
+			(project "TD-TOE01"
+				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/51dbbb27-08dd-4268-ae44-9a0f21ab928b"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TokeiDigital:Crystal")
 		(at 123.19 130.81 0)
 		(unit 1)
@@ -4170,7 +4255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TokeiDigital:Crystal Vertical"
+		(property "Footprint" "TokeiDigital:Crystal_SMD_HC49-SD_HandSoldering"
 			(at 123.19 130.81 0)
 			(effects
 				(font
@@ -5003,94 +5088,6 @@
 			(project "TD-TOE01"
 				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/51dbbb27-08dd-4268-ae44-9a0f21ab928b"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TokeiDigital:1N5817")
-		(at 177.8 53.34 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef9dc63b-fc56-4ba8-bf0b-1e8acc990f87")
-		(property "Reference" "D68"
-			(at 172.72 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N5817"
-			(at 168.91 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TokeiDigital:D_2010"
-			(at 182.245 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 177.8 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 177.8 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy" "https://www.aliexpress.com/item/1005001552094086.html?spm=a2g0o.productlist.main.1.2e94WwbYWwbY5g&algo_pvid=c0be6ba8-0814-418b-8f57-5b462f90716d&algo_exp_id=c0be6ba8-0814-418b-8f57-5b462f90716d-0&pdp_npi=4%40dis%21EUR%210.32%210.32%21%21%210.33%21%21%40211b815c16974702438423181e37e4%2112000016564939110%21sea%21PL%212225465097%21&curPageLogUid=UOM2CuyYhq8v"
-			(at 177.8 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.015"
-			(at 177.8 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d381518-32c9-4139-b2ce-c26c346de349")
-		)
-		(pin "2"
-			(uuid "047b9712-5061-480a-a8a0-9109dc03c592")
-		)
-		(instances
-			(project "TD-TOE01"
-				(path "/bdccfd91-2131-490c-a91d-88ce438b2c4c/51dbbb27-08dd-4268-ae44-9a0f21ab928b"
-					(reference "D68")
 					(unit 1)
 				)
 			)

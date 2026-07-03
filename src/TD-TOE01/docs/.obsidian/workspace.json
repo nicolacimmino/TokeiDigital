@@ -25,12 +25,14 @@
             "id": "92e748118d707225",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.7"
+                "file": "Keys and Leds.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.7"
+              "icon": "lucide-file",
+              "title": "Keys and Leds"
             }
           }
         ],
@@ -198,9 +200,11 @@
   },
   "active": "92e748118d707225",
   "lastOpenFiles": [
-    "Drawings/Front Panel.excalidraw.crswap",
     "Features.md",
     "Ergonomics.md",
+    "Operations Flows/Muting the Buzzer.md",
+    "Operations Flows/Active Timer Selection.md",
+    "Drawings/Front Panel.excalidraw.crswap",
     "Keys and Leds.md",
     "Quickstart Guide.md",
     "Synthetic Operation.md",
@@ -208,11 +212,9 @@
     "ChatGPT Image Mar 13, 2026, 03_29_11 PM.png",
     "Images",
     "Images/Ergonomics Sketch.png",
-    "Operations Flows/Active Timer Selection.md",
     "Drawings/Front Panel.excalidraw",
     "Drawings",
     "New folder",
-    "Operations Flows/Muting the Buzzer.md",
     "Operations Flows/Setting Presets.md",
     "Operations Flows/Timer Setup (Num mode).md",
     "Operations Flows/Timer Setup (Preset Load).md",

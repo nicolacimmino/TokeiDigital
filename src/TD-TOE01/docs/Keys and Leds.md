@@ -19,3 +19,14 @@ FN Function key, selects alternate function for other keys
 4x4 Keypad: 0-F in PRG mode, 0-9 in NUM mode, +10,+5,+1,-1 for H,M,S when not in NUM, second functions: NUM, PRE, PRG, MUTE
 
 
+-----
+Time config/status bits
+
+S selected
+T timed out/running
+L lap
+C timer/chronograph
+T0 triggerd from 0
+T1 triggerd from 1
+T2 triggerd from 2
+T3 triggerd from 3

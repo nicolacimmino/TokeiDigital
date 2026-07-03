@@ -1,4 +1,4 @@
-- 3 Indepentent timers
+- 4 Indepentent timers
 - Timer or chronometer mode
 - +/- time input mode
 - Numeric input mode
